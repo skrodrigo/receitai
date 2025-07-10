@@ -64,6 +64,38 @@ export async function POST(req: Request) {
 			} else {
 				console.warn(`Usuário com email '${userEmail}' não encontrado.`);
 			}
+		} else if (event === "refund") {
+			const userEmail = data.customer.email;
+			const offerId = data.offer.id;
+
+			const creditsToRemove = CREDIT_PACKAGES[offerId];
+
+			if (!creditsToRemove) {
+				console.warn(
+					`Reembolso para oferta com ID '${offerId}' não mapeada para créditos.`,
+				);
+				return NextResponse.json({ success: true });
+			}
+
+			const user = await prisma.user.findUnique({
+				where: { email: userEmail },
+			});
+
+			if (user) {
+				await prisma.user.update({
+					where: { id: user.id },
+					data: {
+						credits: {
+							decrement: creditsToRemove,
+						},
+					},
+				});
+				console.log(`Créditos removidos para o usuário: ${userEmail}`);
+			} else {
+				console.warn(
+					`Usuário com email '${userEmail}' não encontrado para processar reembolso.`,
+				);
+			}
 		}
 
 		return NextResponse.json({ success: true });
