@@ -1,11 +1,11 @@
-import LoginForm from "@/components/forms/login-form"
+import RegisterForm from "@/components/forms/register-form"
 
-export default function LoginPage() {
+export default function RegisterPage() {
   return (
     <div className="bg-background flex min-h-screen items-center justify-center">
       <div className="w-full max-w-sm">
-        <LoginForm />
-      </div> 
+        <RegisterForm />
+      </div>
     </div>
   )
 }
