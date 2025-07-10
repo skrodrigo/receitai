@@ -15,20 +15,20 @@ export default async function DashboardHeader() {
 			<div className="flex flex-1 justify-start items-center space-x-2">
 				<Button variant="outline" asChild>
 					<Link href="/dashboard/my-recipes">
-						<ChefHat className="ml-2 w-4" />
+						<ChefHat className="ml-2 w-4 text-primary" />
 						Minhas Receitas
 					</Link>
 				</Button>
 				<Button variant="outline" asChild>
 					<Link href="/dashboard/favorites">
-						<Star className="ml-2 w-4 fill-primary text-primary" />
+						<Star className="ml-2 w-4 text-primary" />
 						Favoritos
 					</Link>
 				</Button>
 				<Button variant="outline">
 					<Badge>Em breve</Badge>
 					Receitas com IA
-					<SparkleIcon className="ml-2 w-4 fill-primary text-primary" />
+					<SparkleIcon className="ml-2 w-4  text-primary" />
 				</Button>
 			</div>
 			<div className="flex items-center gap-4">

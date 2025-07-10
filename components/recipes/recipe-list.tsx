@@ -7,13 +7,14 @@ import RecipeCard from "./recipe-card";
 
 interface RecipeListProps {
 	recipes: Recipe[];
-	unlockedRecipeIds: Set<string>;
+	unlockedRecipeIds?: Set<string>;
 }
 
 export default function RecipeList({
 	recipes,
 	unlockedRecipeIds,
 }: RecipeListProps) {
+	const unlockedSet = unlockedRecipeIds ?? new Set<string>();
 	const [visibleRecipes, setVisibleRecipes] = useState(6);
 
 	const showMoreRecipes = () => {
@@ -31,7 +32,7 @@ export default function RecipeList({
 					<RecipeCard
 						key={recipe.id}
 						recipe={recipe}
-						isUnlocked={unlockedRecipeIds.has(recipe.id)}
+						isUnlocked={unlockedSet.has(recipe.id)}
 					/>
 				))}
 			</div>

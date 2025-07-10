@@ -18,6 +18,13 @@ import {
 	CardHeader,
 	CardTitle,
 } from "@/components/ui/card";
+import { checkoutAction } from "@/server/billing";
+
+type CheckoutAction = (formData: FormData) => void | Promise<void>;
+
+const createCheckoutAction = (credits: number): CheckoutAction => async () => {
+	await checkoutAction(credits);
+};
 
 const pricingPlans = [
 	{
@@ -106,15 +113,17 @@ export default function MoreCredits() {
 									</div>
 								</CardContent>
 								<CardFooter>
-									<Button
-										className={`w-full ${
-											plan.popular
-												? "bg-primary hover:bg-primary"
-												: "bg-primary hover:bg-primary"
-										}`}
+									<form
+										action={createCheckoutAction(plan.credits)}
+										className="w-full"
 									>
-										🛒 Adquirir Agora
-									</Button>
+										<Button
+											className="w-full bg-primary hover:bg-primary"
+											type="submit"
+										>
+											Agora
+										</Button>
+									</form>
 								</CardFooter>
 							</Card>
 						))}
