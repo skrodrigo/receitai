@@ -15,19 +15,19 @@ export default function RecipeList({
 	unlockedRecipeIds,
 }: RecipeListProps) {
 	const unlockedSet = unlockedRecipeIds ?? new Set<string>();
-	const [visibleRecipes, setVisibleRecipes] = useState(6);
+	const [visibleRecipes, setVisibleRecipes] = useState(8);
 
 	const showMoreRecipes = () => {
-		setVisibleRecipes((prev) => prev + 6);
+		setVisibleRecipes((prev) => prev + 8);
 	};
 
 	const showLessRecipes = () => {
-		setVisibleRecipes(6);
+		setVisibleRecipes(8);
 	};
 
 	return (
 		<div>
-			<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 w-full mb-6">
+			<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  gap-8 w-full mb-6">
 				{recipes.slice(0, visibleRecipes).map((recipe) => (
 					<RecipeCard
 						key={recipe.id}

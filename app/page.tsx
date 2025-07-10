@@ -51,7 +51,7 @@ export default async function Page() {
 	return (
 		<div className="min-h-screen font-sans">
 			{/* Header */}
-			<header className="top-2 border rounded-lg border-primary bg-primary-foreground/95 backdrop-blur-sm sticky z-50 max-w-xl mx-auto">
+			<header className="top-2 border rounded-lg border-border bg-primary-foreground/95 backdrop-blur-sm sticky z-50 max-w-xl mx-auto">
 				<div className="container mx-auto px-4 py-2 flex items-center justify-between">
 					<div className="flex items-center space-x-2">
 						<Image
@@ -65,13 +65,13 @@ export default async function Page() {
 					<nav className="hidden md:flex items-center space-x-6">
 						<Link
 							href="#receitas"
-							className="text-primary hover:text-primary font-medium"
+							className="text-foreground hover:text-primary font-medium"
 						>
 							Receitas
 						</Link>
 						<Link
 							href="#precos"
-							className="text-primary hover:text-primary font-medium"
+							className="text-foreground hover:text-primary font-medium"
 						>
 							Preços
 						</Link>
@@ -88,7 +88,7 @@ export default async function Page() {
 					<h2 className="text-5xl font-extrabold text-primary mb-6">
 						🍳 Receitas Ricas em Proteina com ingredientes simples!
 					</h2>
-					<p className="text-md text-primary mb-8 max-w-2xl mx-auto">
+					<p className="text-md text-muted-foreground/70 mb-8 max-w-2xl mx-auto">
 						Descubra receitas únicas criadas por nutricionistas renomados.
 						Técnicas secretas, ingredientes especiais e resultados incríveis!
 					</p>
@@ -112,13 +112,143 @@ export default async function Page() {
 				</div>
 			</section>
 
+			{/* What you will find Section */}
+			<section id="encontrar" className="py-16 bg-primary-foreground">
+				<div className="container mx-auto px-4">
+					<h3 className="text-3xl font-bold text-center text-primary mb-12">
+						📝 O Que Você Vai Encontrar em Cada Receita?
+					</h3>
+					<div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-center">
+						<div className="p-6 border border-border rounded-lg">
+							<h4 className="font-bold text-lg text-primary mb-2">
+								Ingredientes e Preparo
+							</h4>
+							<p className="text-muted-foreground/70">
+								Listas claras e passo a passo detalhado para não ter erro.
+							</p>
+						</div>
+						<div className="p-6 border border-border rounded-lg">
+							<h4 className="font-bold text-lg text-primary mb-2">
+								Informações Nutricionais
+							</h4>
+							<p className="text-muted-foreground/70">
+								Macros e calorias calculadas para sua dieta.
+							</p>
+						</div>
+						<div className="p-6 border border-border rounded-lg">
+							<h4 className="font-bold text-lg text-primary mb-2">
+								Dicas do Chef
+							</h4>
+							<p className="text-muted-foreground/70">
+								Segredos para deixar seu prato ainda mais especial.
+							</p>
+						</div>
+						<div className="p-6 border border-border rounded-lg">
+							<h4 className="font-bold text-lg text-primary mb-2">
+								Técnicas Profissionais
+							</h4>
+							<p className="text-muted-foreground/70">
+								Aprenda técnicas usadas em cozinhas renomadas.
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			{/* Advantages Section */}
+			<section id="vantagens" className="py-16">
+				<div className="container mx-auto px-4">
+					<h3 className="text-3xl font-bold text-center text-primary mb-12">
+						✅ Vantagens de Usar o ReceitAI
+					</h3>
+					<div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-center">
+						<div className="p-6">
+							<h4 className="font-bold text-lg text-primary mb-2">
+								Economia de Tempo
+							</h4>
+							<p className="text-muted-foreground/70">
+								Planeje suas refeições de forma rápida e eficiente.
+							</p>
+						</div>
+						<div className="p-6">
+							<h4 className="font-bold text-lg text-primary mb-2">
+								Receitas Aprovadas
+							</h4>
+							<p className="text-muted-foreground/70">
+								Criadas e validadas por nutricionistas experientes.
+							</p>
+						</div>
+						<div className="p-6">
+							<h4 className="font-bold text-lg text-primary mb-2">
+								Vida Saudável
+							</h4>
+							<p className="text-muted-foreground/70">
+								Alcance seus objetivos com uma alimentação balanceada.
+							</p>
+						</div>
+						<div className="p-6">
+							<h4 className="font-bold text-lg text-primary mb-2">
+								Novos Sabores
+							</h4>
+							<p className="text-muted-foreground/70">
+								Descubra ingredientes e pratos que vão te surpreender.
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			{/* Social Proof Section */}
+			<section id="provas-sociais" className="py-16 bg-primary-foreground">
+				<div className="container mx-auto px-4">
+					<h3 className="text-3xl font-bold text-center text-primary mb-12">
+						💬 O Que Nossos Chefs Estão Dizendo
+					</h3>
+					<div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+						<Card className="border-border">
+							<CardContent className="pt-6">
+								<p className="text-muted-foreground/70 italic">
+									"As receitas são incríveis e fáceis de seguir. Mudei
+									completamente minha alimentação!"
+								</p>
+								<p className="text-right font-bold text-primary mt-4">
+									- João P.
+								</p>
+							</CardContent>
+						</Card>
+						<Card className="border-border">
+							<CardContent className="pt-6">
+								<p className="text-muted-foreground/70 italic">
+									"Finalmente encontrei receitas proteicas que são deliciosas.
+									Recomendo!"
+								</p>
+								<p className="text-right font-bold text-primary mt-4">
+									- Maria S.
+								</p>
+							</CardContent>
+						</Card>
+						<Card className="border-border">
+							<CardContent className="pt-6">
+								<p className="text-muted-foreground/70 italic">
+									"A variedade de pratos é impressionante. Todo dia uma nova
+									descoberta."
+								</p>
+								<p className="text-right font-bold text-primary mt-4">
+									- Carlos F.
+								</p>
+							</CardContent>
+						</Card>
+					</div>
+				</div>
+			</section>
+
 			{/* Pricing Section */}
 			<section id="precos" className="py-16 ">
 				<div className="container mx-auto px-4">
 					<h3 className="text-3xl font-bold text-center text-primary mb-4">
 						💳 Planos de Créditos
 					</h3>
-					<p className="text-center text-primary mb-12 text-lg">
+					<p className="text-center text-muted-foreground/70 mb-12 text-lg">
 						Escolha o plano ideal para suas aventuras culinárias
 					</p>
 					<div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
@@ -127,8 +257,8 @@ export default async function Page() {
 								key={plan.credits}
 								className={`relative border transition-all duration-300 hover:shadow-xl ${
 									plan.popular
-										? "border-primary bg-primary-foreground scale-105"
-										: "border-primary bg-white hover:border-primary"
+										? "border-border bg-primary-foreground scale-105"
+										: "border-border bg-white hover:border-border"
 								}`}
 							>
 								{plan.popular && (
@@ -149,7 +279,7 @@ export default async function Page() {
 									<CardTitle className="text-2xl text-primary">
 										{plan.credits} Créditos
 									</CardTitle>
-									<CardDescription className="text-primary">
+									<CardDescription className="text-muted-foreground/70">
 										{plan.description}
 									</CardDescription>
 								</CardHeader>
@@ -157,7 +287,7 @@ export default async function Page() {
 									<div className="text-4xl font-extrabold text-primary mb-2 ">
 										R$ {plan.price}
 									</div>
-									<p className="text-primary text-sm mb-4">
+									<p className="text-muted-foreground/70 text-sm mb-4">
 										R$ {(plan.price / plan.credits).toFixed(2)} por receita
 									</p>
 									<div className="space-y-2 text-sm text-primary">
@@ -192,138 +322,8 @@ export default async function Page() {
 				</div>
 			</section>
 
-			{/* What you will find Section */}
-			<section id="encontrar" className="py-16 bg-primary-foreground">
-				<div className="container mx-auto px-4">
-					<h3 className="text-3xl font-bold text-center text-primary mb-12">
-						📝 O Que Você Vai Encontrar em Cada Receita?
-					</h3>
-					<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 text-center">
-						<div className="p-6 border border-primary rounded-lg">
-							<h4 className="font-bold text-lg text-primary mb-2">
-								Ingredientes e Preparo
-							</h4>
-							<p className="text-primary">
-								Listas claras e passo a passo detalhado para não ter erro.
-							</p>
-						</div>
-						<div className="p-6 border border-primary rounded-lg">
-							<h4 className="font-bold text-lg text-primary mb-2">
-								Informações Nutricionais
-							</h4>
-							<p className="text-primary">
-								Macros e calorias calculadas para sua dieta.
-							</p>
-						</div>
-						<div className="p-6 border border-primary rounded-lg">
-							<h4 className="font-bold text-lg text-primary mb-2">
-								Dicas do Chef
-							</h4>
-							<p className="text-primary">
-								Segredos para deixar seu prato ainda mais especial.
-							</p>
-						</div>
-						<div className="p-6 border border-primary rounded-lg">
-							<h4 className="font-bold text-lg text-primary mb-2">
-								Técnicas Profissionais
-							</h4>
-							<p className="text-primary">
-								Aprenda técnicas usadas em cozinhas renomadas.
-							</p>
-						</div>
-					</div>
-				</div>
-			</section>
-
-			{/* Advantages Section */}
-			<section id="vantagens" className="py-16">
-				<div className="container mx-auto px-4">
-					<h3 className="text-3xl font-bold text-center text-primary mb-12">
-						✅ Vantagens de Usar o ReceitAI
-					</h3>
-					<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 text-center">
-						<div className="p-6">
-							<h4 className="font-bold text-lg text-primary mb-2">
-								Economia de Tempo
-							</h4>
-							<p className="text-primary">
-								Planeje suas refeições de forma rápida e eficiente.
-							</p>
-						</div>
-						<div className="p-6">
-							<h4 className="font-bold text-lg text-primary mb-2">
-								Receitas Aprovadas
-							</h4>
-							<p className="text-primary">
-								Criadas e validadas por nutricionistas experientes.
-							</p>
-						</div>
-						<div className="p-6">
-							<h4 className="font-bold text-lg text-primary mb-2">
-								Vida Saudável
-							</h4>
-							<p className="text-primary">
-								Alcance seus objetivos com uma alimentação balanceada.
-							</p>
-						</div>
-						<div className="p-6">
-							<h4 className="font-bold text-lg text-primary mb-2">
-								Novos Sabores
-							</h4>
-							<p className="text-primary">
-								Descubra ingredientes e pratos que vão te surpreender.
-							</p>
-						</div>
-					</div>
-				</div>
-			</section>
-
-			{/* Social Proof Section */}
-			<section id="provas-sociais" className="py-16 bg-primary-foreground">
-				<div className="container mx-auto px-4">
-					<h3 className="text-3xl font-bold text-center text-primary mb-12">
-						💬 O Que Nossos Chefs Estão Dizendo
-					</h3>
-					<div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-						<Card className="border-primary">
-							<CardContent className="pt-6">
-								<p className="text-primary italic">
-									"As receitas são incríveis e fáceis de seguir. Mudei
-									completamente minha alimentação!"
-								</p>
-								<p className="text-right font-bold text-primary mt-4">
-									- João P.
-								</p>
-							</CardContent>
-						</Card>
-						<Card className="border-primary">
-							<CardContent className="pt-6">
-								<p className="text-primary italic">
-									"Finalmente encontrei receitas proteicas que são deliciosas.
-									Recomendo!"
-								</p>
-								<p className="text-right font-bold text-primary mt-4">
-									- Maria S.
-								</p>
-							</CardContent>
-						</Card>
-						<Card className="border-primary">
-							<CardContent className="pt-6">
-								<p className="text-primary italic">
-									"A variedade de pratos é impressionante. Todo dia uma nova
-									descoberta."
-								</p>
-								<p className="text-right font-bold text-primary mt-4">
-									- Carlos F.
-								</p>
-							</CardContent>
-						</Card>
-					</div>
-				</div>
-			</section>
-
 			{/* Objections Section */}
-			<section id="objecoes" className="py-16">
+			<section id="objecoes" className="py-16 bg-primary-foreground">
 				<div className="container mx-auto px-4 max-w-3xl">
 					<h3 className="text-3xl font-bold text-center text-primary mb-12">
 						💡 Ainda na Dúvida?
@@ -333,7 +333,7 @@ export default async function Page() {
 							<h4 className="font-bold text-lg text-primary">
 								"Não tenho tempo para cozinhar."
 							</h4>
-							<p className="text-primary">
+							<p className="text-muted-foreground/70">
 								Nossas receitas são pensadas para serem rápidas e práticas, se
 								encaixando na sua rotina.
 							</p>
@@ -342,7 +342,7 @@ export default async function Page() {
 							<h4 className="font-bold text-lg text-primary">
 								"É muito caro."
 							</h4>
-							<p className="text-primary">
+							<p className="text-muted-foreground/70">
 								Com nossos planos, cada receita custa menos que um café. É um
 								investimento na sua saúde.
 							</p>
@@ -351,7 +351,7 @@ export default async function Page() {
 							<h4 className="font-bold text-lg text-primary">
 								"Não vou conseguir seguir as receitas."
 							</h4>
-							<p className="text-primary">
+							<p className="text-muted-foreground/70">
 								O passo a passo é super detalhado e simples. Qualquer um pode se
 								tornar um chef!
 							</p>
@@ -361,12 +361,12 @@ export default async function Page() {
 			</section>
 
 			{/* Guarantee Section */}
-			<section id="garantia" className="py-16 bg-primary-foreground">
+			<section id="garantia" className="py-16">
 				<div className="container mx-auto px-4 text-center max-w-3xl">
 					<h3 className="text-3xl font-bold text-primary mb-4">
 						🛡️ Garantia de Satisfação Incondicional
 					</h3>
-					<p className="text-lg text-primary mb-8">
+					<p className="text-lg text-muted-foreground/70 mb-8">
 						Se você não ficar totalmente satisfeito com nossas receitas,
 						devolvemos seu dinheiro em até 7 dias. Sem perguntas, sem
 						burocracia. O risco é todo nosso!
@@ -392,7 +392,7 @@ export default async function Page() {
 							<AccordionTrigger className="text-primary text-lg">
 								💰 Como funciona a compra de créditos?
 							</AccordionTrigger>
-							<AccordionContent className="text-primary">
+							<AccordionContent className="text-muted-foreground/70">
 								Você adquire um pacote de créditos e pode usá-los para
 								desbloquear as receitas que quiser, quando quiser. Seus créditos
 								não expiram.
@@ -402,7 +402,7 @@ export default async function Page() {
 							<AccordionTrigger className="text-primary text-lg">
 								🧑‍🍳 As receitas são para iniciantes?
 							</AccordionTrigger>
-							<AccordionContent className="text-primary">
+							<AccordionContent className="text-muted-foreground/70">
 								Sim! Temos receitas para todos os níveis, desde o cozinheiro de
 								primeira viagem até o chef experiente.
 							</AccordionContent>
@@ -411,7 +411,7 @@ export default async function Page() {
 							<AccordionTrigger className="text-primary text-lg">
 								📱 Posso acessar em qualquer dispositivo?
 							</AccordionTrigger>
-							<AccordionContent className="text-primary">
+							<AccordionContent className="text-muted-foreground/70">
 								Com certeza! O ReceitAI é totalmente responsivo e pode ser
 								acessado do seu celular, tablet ou computador.
 							</AccordionContent>
@@ -495,7 +495,7 @@ export default async function Page() {
 							</ul>
 						</div>
 					</div>
-					<div className="border-t border-primary mt-8 pt-8 text-center text-primary-foreground">
+					<div className="border-t border-border mt-8 pt-8 text-center text-primary-foreground">
 						<p>
 							&copy; 2024 ReceitAI. Todos os direitos reservados. Feito com 🧡
 							para chefs apaixonados.

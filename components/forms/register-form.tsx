@@ -75,10 +75,10 @@ export default function RegisterForm() {
 		<div className="min-h-screen flex items-center justify-center p-4">
 			<Card className="w-full max-w-md bg-white/90 backdrop-blur-sm">
 				<CardHeader className="text-center">
-					<CardTitle className="text-2xl text-primary">
+					<CardTitle className="text-2xl text-foreground">
 						Seja bem-vindo! 👨‍🍳
 					</CardTitle>
-					<CardDescription className="text-primary">
+					<CardDescription className="text-foreground">
 						Crie sua conta para acessar receitas exclusivas
 					</CardDescription>
 				</CardHeader>
@@ -90,12 +90,12 @@ export default function RegisterForm() {
 								name="name"
 								render={({ field }) => (
 									<FormItem>
-										<FormLabel className="text-primary">Nome</FormLabel>
+										<FormLabel className="text-foreground">Nome</FormLabel>
 										<FormControl>
 											<Input
 												placeholder="Seu nome"
 												{...field}
-												className="border-primary focus:border-primary"
+												className="border-input placeholder:text-accent-foreground/60 focus:border-primary"
 											/>
 										</FormControl>
 										<FormMessage />
@@ -107,13 +107,13 @@ export default function RegisterForm() {
 								name="email"
 								render={({ field }) => (
 									<FormItem>
-										<FormLabel className="text-primary">Email</FormLabel>
+										<FormLabel className="text-foreground">Email</FormLabel>
 										<FormControl>
 											<Input
 												type="email"
 												placeholder="seu@email.com"
 												{...field}
-												className="border-primary focus:border-primary"
+												className="border-input placeholder:text-accent-foreground/60 focus:border-primary"
 											/>
 										</FormControl>
 										<FormMessage />
@@ -125,13 +125,13 @@ export default function RegisterForm() {
 								name="password"
 								render={({ field }) => (
 									<FormItem>
-										<FormLabel className="text-primary">Senha</FormLabel>
+										<FormLabel className="text-foreground">Senha</FormLabel>
 										<FormControl>
 											<Input
 												type="password"
 												placeholder="Sua senha"
 												{...field}
-												className="border-primary focus:border-primary"
+												className="border-input placeholder:text-accent-foreground/60 focus:border-primary"
 											/>
 										</FormControl>
 										<FormMessage />

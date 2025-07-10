@@ -24,7 +24,7 @@ export default function RecipeCard({
 	return (
 		<Card
 			key={recipe.id}
-			className="overflow-hidden border border-primary hover:border-primary py-0 pb-4 transition-all duration-300 hover:shadow-xl bg-white/90 backdrop-blur-sm"
+			className="overflow-hidden border border-border hover:border-primary py-0 pb-4 transition-all duration-300 hover:shadow-xl bg-white/90 backdrop-blur-sm"
 		>
 			<div className="relative">
 				<Image
@@ -43,19 +43,19 @@ export default function RecipeCard({
 				<CardTitle className="text-primary flex items-center justify-between">
 					{recipe.title}
 				</CardTitle>
-				<div className="flex items-center space-x-4 text-sm text-primary">
+				<div className="flex items-center space-x-4 text-sm text-foreground">
 					<div className="flex items-center">
 						<Clock className="h-4 w-4 mr-1" />
 						{recipe.time}
 					</div>
-					<Badge variant="outline" className="border-primary text-primary">
+					<Badge variant="outline" className="border-border text-foreground">
 						{recipe.difficulty}
 					</Badge>
 				</div>
 			</CardHeader>
 			<CardContent>
 				<div className="relative">
-										<p
+					<p
 						className={`text-primary ${
 							!isUnlocked ? "blur-sm select-none" : ""
 						}`}

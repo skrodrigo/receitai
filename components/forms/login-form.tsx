@@ -72,10 +72,10 @@ export default function LoginForm() {
 		<div className="min-h-screen flex items-center justify-center p-4">
 			<Card className="w-full max-w-md bg-white/90 backdrop-blur-sm">
 				<CardHeader className="text-center">
-					<CardTitle className="text-2xl text-primary">
+					<CardTitle className="text-2xl text-foreground">
 						Bem-vindo de volta! 👨‍🍳
 					</CardTitle>
-					<CardDescription className="text-primary">
+					<CardDescription className="text-foreground">
 						Entre na sua conta para acessar receitas exclusivas
 					</CardDescription>
 				</CardHeader>
@@ -87,13 +87,13 @@ export default function LoginForm() {
 								name="email"
 								render={({ field }) => (
 									<FormItem>
-										<FormLabel className="text-primary">Email</FormLabel>
+										<FormLabel className="text-foreground">Email</FormLabel>
 										<FormControl>
 											<Input
 												type="email"
 												placeholder="seu@email.com"
 												{...field}
-												className="border-primary focus:border-primary"
+												className="border-input placeholder:text-accent-foreground/60 focus:border-primary"
 											/>
 										</FormControl>
 										<FormMessage />
@@ -105,13 +105,13 @@ export default function LoginForm() {
 								name="password"
 								render={({ field }) => (
 									<FormItem>
-										<FormLabel className="text-primary">Senha</FormLabel>
+										<FormLabel className="text-foreground">Senha</FormLabel>
 										<FormControl>
 											<Input
 												type="password"
 												placeholder="Sua senha"
 												{...field}
-												className="border-primary focus:border-primary"
+												className="border-input placeholder:text-accent-foreground/60 focus:border-primary"
 											/>
 										</FormControl>
 										<FormMessage />
