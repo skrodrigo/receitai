@@ -1,5 +1,8 @@
 "use server";
 
+import { revalidatePath } from "next/cache";
+import { headers } from "next/headers";
+import { auth } from "@/lib/auth";
 import prisma from "@/lib/prisma";
 
 export async function GetRecipes() {
@@ -48,7 +51,11 @@ export async function GetRecipeByCategory(categoryId: string) {
 			where: {
 				categoryId: categoryId,
 			},
+			orderBy: {
+				createdAt: "desc",
+			},
 		});
+
 		return {
 			success: true,
 			data: recipes,
@@ -86,3 +93,72 @@ export const GetFavoriteRecipes = async (userId: string) => {
 		};
 	}
 };
+
+export async function toggleFavorite(recipeId: string) {
+	const session = await auth.api.getSession({
+		headers: await headers(),
+	});
+	const userId = session?.user?.id;
+
+	if (!userId) {
+		return { error: "Usuário não autenticado." };
+	}
+
+	try {
+		const existingFavorite = await prisma.favorite.findUnique({
+			where: {
+				userId_recipeId: {
+					userId,
+					recipeId,
+				},
+			},
+		});
+
+		if (existingFavorite) {
+			await prisma.favorite.delete({
+				where: {
+					id: existingFavorite.id,
+				},
+			});
+			revalidatePath(`/dashboard/recipes/${recipeId}`);
+			return { success: true, isFavorited: false };
+		} else {
+			await prisma.favorite.create({
+				data: {
+					userId,
+					recipeId,
+				},
+			});
+			revalidatePath(`/dashboard/recipes/${recipeId}`);
+			return { success: true, isFavorited: true };
+		}
+	} catch (_error) {
+		return { error: "Ocorreu um erro ao favoritar a receita." };
+	}
+}
+
+export async function isRecipeFavorited(recipeId: string) {
+	const session = await auth.api.getSession({
+		headers: await headers(),
+	});
+	const userId = session?.user?.id;
+
+	if (!userId) {
+		return false;
+	}
+
+	try {
+		const favorite = await prisma.favorite.findUnique({
+			where: {
+				userId_recipeId: {
+					userId,
+					recipeId,
+				},
+			},
+		});
+
+		return !!favorite;
+	} catch (_error) {
+		return false;
+	}
+}

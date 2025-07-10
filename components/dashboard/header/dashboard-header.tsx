@@ -1,4 +1,5 @@
 import { ChefHat, SparkleIcon, Star } from "lucide-react";
+import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { getUserSession, signOut } from "@/server/user";
 import { Badge } from "../../ui/badge";
@@ -12,13 +13,17 @@ export default async function DashboardHeader() {
 	return (
 		<header className="sticky z-30 flex h-12 items-center gap-4 p-3 border-b border-border">
 			<div className="flex flex-1 justify-start items-center space-x-2">
-				<Button variant="outline">
-					<ChefHat className="ml-2 w-4" />
-					Minhas Receitas
+				<Button variant="outline" asChild>
+					<Link href="/dashboard/my-recipes">
+						<ChefHat className="ml-2 w-4" />
+						Minhas Receitas
+					</Link>
 				</Button>
-				<Button variant="outline">
-					<Star className="ml-2 w-4 fill-primary text-primary" />
-					Favoritos
+				<Button variant="outline" asChild>
+					<Link href="/dashboard/favorites">
+						<Star className="ml-2 w-4 fill-primary text-primary" />
+						Favoritos
+					</Link>
 				</Button>
 				<Button variant="outline">
 					<Badge>Em breve</Badge>

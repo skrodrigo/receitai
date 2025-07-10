@@ -1,4 +1,5 @@
 import { Clock, Star } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 import type { Recipe } from "@/app/generated/prisma";
 import { Badge } from "../ui/badge";
@@ -22,9 +23,11 @@ export default function RecipeCard({ recipe }: RecipeCardProps) {
 			className="overflow-hidden border border-primary hover:border-primary py-0 pb-4 transition-all duration-300 hover:shadow-xl bg-white/90 backdrop-blur-sm"
 		>
 			<div className="relative">
-				<img
+				<Image
 					src={recipe.image || "/placeholder.svg"}
 					alt={recipe.title}
+					width={500}
+					height={500}
 					className="w-full h-48 object-cover"
 				/>
 				<div className="absolute top-2 right-2 bg-primary text-white px-2 py-1 rounded-full text-sm font-medium">
@@ -55,7 +58,9 @@ export default function RecipeCard({ recipe }: RecipeCardProps) {
 			</CardContent>
 			<CardFooter>
 				<Button asChild className="w-full bg-primary hover:bg-primary">
-					<Link href="/login">🔓 Desbloquear Receita</Link>
+					<Link href={`/dashboard/recipes/${recipe.id}`}>
+						🔓 Desbloquear Receita
+					</Link>
 				</Button>
 			</CardFooter>
 		</Card>

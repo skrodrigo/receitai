@@ -1,6 +1,5 @@
 "use client";
 
-import Link from "next/link";
 import { useState } from "react";
 import type { Recipe } from "@/app/generated/prisma";
 import { Button } from "../ui/button";
@@ -25,13 +24,7 @@ export default function RecipeList({ recipes }: RecipeListProps) {
 		<div>
 			<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 w-full mb-6">
 				{recipes.slice(0, visibleRecipes).map((recipe) => (
-					<Link
-						href={`/dashboard/recipes/${recipe.id}`}
-						key={recipe.id}
-						className="block hover:scale-105 transition-transform duration-200 ease-in-out"
-					>
-						<RecipeCard recipe={recipe} />
-					</Link>
+					<RecipeCard key={recipe.id} recipe={recipe} />
 				))}
 			</div>
 			<div className="flex flex-col space-y-3 items-center justify-center">
