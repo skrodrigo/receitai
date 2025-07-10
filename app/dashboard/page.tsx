@@ -1,38 +1,46 @@
+export const dynamic = "force-dynamic";
+
+import CategoryFilter from "@/components/categories/category-filter";
 import DashboardHeader from "@/components/dashboard/header/dashboard-header";
 import RecipeList from "@/components/recipes/recipe-list";
-import {
-	Select,
-	SelectContent,
-	SelectItem,
-	SelectTrigger,
-	SelectValue,
-} from "@/components/ui/select";
+import { GetCategories } from "@/server/category";
 import { GetRecipes } from "@/server/recipe";
 
-export default async function Page() {
-	const { data: recipesList, error } = await GetRecipes();
+interface DashboardPageProps {
+	searchParams: Promise<{ categoryId?: string }>;
+}
 
-	if (error) {
-		return <div>Erro ao buscar receitas</div>;
-	}
+export default async function Page({ searchParams }: DashboardPageProps) {
+	const { categoryId } = await searchParams;
+
+	const [categoriesResult, recipesResult] = await Promise.all([
+		GetCategories(),
+		GetRecipes(categoryId),
+	]);
+
+	const categories = categoriesResult.data || [];
+	const recipesList = recipesResult.data || [];
 
 	return (
 		<div className="flex min-h-screen w-full flex-col bg-muted/40">
 			<main className="flex flex-1 flex-col gap-4 p-4 sm:px-6 sm:py-0 md:gap-8">
 				<DashboardHeader />
-				<Select>
-					<SelectTrigger className="w-[180px]">
-						<SelectValue placeholder="Categorias" />
-					</SelectTrigger>
-					<SelectContent>
-						<SelectItem value="pratos-principais">Pratos Principais</SelectItem>
-						<SelectItem value="sobremesas">Sobremesas</SelectItem>
-						<SelectItem value="lanches">Lanches</SelectItem>
-						<SelectItem value="saladas">Saladas</SelectItem>
-						<SelectItem value="sopas">Sopas</SelectItem>
-					</SelectContent>
-				</Select>
-				{recipesList && <RecipeList recipes={recipesList} />}
+				<div className="pt-4">
+					<CategoryFilter categories={categories} />
+				</div>
+
+				{recipesList.length > 0 ? (
+					<RecipeList recipes={recipesList} />
+				) : (
+					<div className="flex flex-col items-center justify-center h-full text-center p-8 mt-8">
+						<h2 className="text-2xl font-bold mb-2">
+							Nenhuma Receita Encontrada
+						</h2>
+						<p className="text-muted-foreground">
+							Tente selecionar outra categoria ou adicione novas receitas.
+						</p>
+					</div>
+				)}
 			</main>
 		</div>
 	);

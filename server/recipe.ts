@@ -5,9 +5,10 @@ import { headers } from "next/headers";
 import { auth } from "@/lib/auth";
 import prisma from "@/lib/prisma";
 
-export async function GetRecipes() {
+export async function GetRecipes(categoryId?: string) {
 	try {
 		const recipes = await prisma.recipe.findMany({
+			where: categoryId ? { categoryId } : {},
 			orderBy: {
 				createdAt: "desc",
 			},
@@ -44,30 +45,6 @@ export const GetRecipeById = async (id: string) => {
 		return { success: false, error: "Ocorreu um erro ao buscar a receita." };
 	}
 };
-
-export async function GetRecipeByCategory(categoryId: string) {
-	try {
-		const recipes = await prisma.recipe.findMany({
-			where: {
-				categoryId: categoryId,
-			},
-			orderBy: {
-				createdAt: "desc",
-			},
-		});
-
-		return {
-			success: true,
-			data: recipes,
-			message: "Receitas da categoria obtidas com sucesso.",
-		};
-	} catch (_error) {
-		return {
-			success: false,
-			error: "Ocorreu um erro ao buscar as receitas da categoria.",
-		};
-	}
-}
 
 export const GetFavoriteRecipes = async (userId: string) => {
 	try {

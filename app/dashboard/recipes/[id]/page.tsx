@@ -5,12 +5,15 @@ import BackButton from "@/components/ui/back-button";
 import { Badge } from "@/components/ui/badge";
 import { GetRecipeById, isRecipeFavorited } from "@/server/recipe";
 
-export default async function RecipePage({
-	params,
-}: {
-	params: { id: string };
-}) {
-	const { data: recipe, error } = await GetRecipeById(params.id);
+export const dynamic = "force-dynamic";
+
+interface RecipePageProps {
+	params: Promise<{ id: string }>;
+}
+
+export default async function RecipePage({ params }: RecipePageProps) {
+	const { id } = await params;
+	const { data: recipe, error } = await GetRecipeById(id);
 
 	if (error || !recipe) {
 		return (
@@ -39,8 +42,8 @@ export default async function RecipePage({
 							<Image
 								src={recipe.image}
 								alt={recipe.title}
-								layout="fill"
-								objectFit="cover"
+								fill
+								style={{ objectFit: "cover" }}
 							/>
 						</div>
 					)}
