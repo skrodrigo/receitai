@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 import prisma from "@/lib/prisma";
 
-interface CactoWebhookPayload {
+interface CaktoWebhookPayload {
 	secret: string;
 	event: string;
 	data: {
@@ -23,14 +23,14 @@ const CREDIT_PACKAGES: { [key: string]: number } = {
 };
 
 export async function POST(req: Request) {
-	console.log("Webhook da Cacto recebido!");
+	console.log("Webhook da Cakto recebido!");
 
 	try {
-		const payload: CactoWebhookPayload = await req.json();
+		const payload: CaktoWebhookPayload = await req.json();
 		const { secret, event, data } = payload;
 
-		const cactoSecret = process.env.CAKTO_WEBHOOK_SECRET;
-		if (!cactoSecret || secret !== cactoSecret) {
+		const CaktoSecret = process.env.CAKTO_WEBHOOK_SECRET;
+		if (!CaktoSecret || secret !== CaktoSecret) {
 			console.warn("Segredo do webhook inválido ou não configurado.");
 			return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
 		}
@@ -67,7 +67,7 @@ export async function POST(req: Request) {
 
 		return NextResponse.json({ success: true });
 	} catch (error) {
-		console.error("Erro ao processar o webhook da Cacto:", error);
+		console.error("Erro ao processar o webhook da Cakto:", error);
 		return NextResponse.json(
 			{ error: "Internal Server Error" },
 			{ status: 200 },
