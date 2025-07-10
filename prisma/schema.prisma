@@ -9,15 +9,18 @@ datasource db {
 }
 
 model User {
-  id            String    @id
-  name          String
-  email         String
-  emailVerified Boolean
-  image         String?
-  createdAt     DateTime
-  updatedAt     DateTime
-  sessions      Session[]
-  accounts      Account[]
+  id              String       @id
+  name            String
+  email           String
+  emailVerified   Boolean
+  image           String?
+  createdAt       DateTime     @default(now())
+  updatedAt       DateTime     @updatedAt
+  sessions        Session[]
+  accounts        Account[]
+  credits         Int          @default(10)
+  unlockedRecipes UserRecipe[]
+  favorites       Favorite[]
 
   @@unique([email])
   @@map("user")
@@ -66,4 +69,69 @@ model Verification {
   updatedAt  DateTime?
 
   @@map("verification")
+}
+
+model Recipe {
+  id           String       @id @default(cuid())
+  title        String
+  description  String
+  ingredients  Json
+  instructions Json
+  isPublic     Boolean      @default(false)
+  createdAt    DateTime     @default(now())
+  updatedAt    DateTime     @updatedAt
+  promptId     String       @unique
+  prompt       Prompt       @relation(fields: [promptId], references: [id])
+  categoryId   String
+  category     Category     @relation(fields: [categoryId], references: [id])
+  unlockedBy   UserRecipe[]
+  favoritedBy  Favorite[]
+
+  @@map("recipes")
+}
+
+model UserRecipe {
+  userId     String
+  recipeId   String
+  unlockedAt DateTime @default(now())
+
+  user   User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+  recipe Recipe @relation(fields: [recipeId], references: [id], onDelete: Cascade)
+
+  @@id([userId, recipeId])
+  @@map("user_recipes")
+}
+
+model Prompt {
+  id        String   @id @default(cuid())
+  title     String
+  template  String
+  recipe    Recipe?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@map("prompts")
+}
+
+model Category {
+  id        String   @id @default(cuid())
+  name      String   @unique
+  recipes   Recipe[]
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@map("categories")
+}
+
+model Favorite {
+  id        String   @id @default(cuid())
+  userId    String
+  recipeId  String
+  createdAt DateTime @default(now())
+
+  user   User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+  recipe Recipe @relation(fields: [recipeId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, recipeId])
+  @@map("favorites")
 }

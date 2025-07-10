@@ -28,7 +28,7 @@ export default function RecipeCard() {
       {recipes.slice(0, visibleRecipes).map((recipe) => (
           <Card
             key={recipe.id}
-            className="overflow-hidden border-2 border-primary hover:border-primary py-0 pb-4 transition-all duration-300 hover:shadow-xl bg-white/90 backdrop-blur-sm"
+            className="overflow-hidden border border-primary hover:border-primary py-0 pb-4 transition-all duration-300 hover:shadow-xl bg-white/90 backdrop-blur-sm"
           >
             <div className="relative">
               <img
@@ -44,7 +44,6 @@ export default function RecipeCard() {
             <CardHeader>
               <CardTitle className="text-primary flex items-center justify-between">
                 {recipe.title}
-                <Lock className="h-5 w-5 text-primary" />
               </CardTitle>
               <div className="flex items-center space-x-4 text-sm text-primary">
                 <div className="flex items-center">
