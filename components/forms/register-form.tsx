@@ -1,11 +1,32 @@
+"use client"
+
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import Image from "next/image"
+import { authClient } from "@/lib/auth-client"
+import { useRouter } from "next/navigation"
+
+
 
 export default function RegisterForm() {
+  const router = useRouter()
+
+  const signIn = async () => {
+    const { error } = await authClient.signIn.social({
+      provider: "google"
+    })
+
+    if (error) {
+      router.push("/login")
+      return
+    }
+
+    router.push("/dashboard")
+  }
+
   return (
     <div className="min-h-screen flex items-center justify-center p-4">
       <Card className="w-full max-w-md  bg-white/90 backdrop-blur-sm">
@@ -16,7 +37,7 @@ export default function RegisterForm() {
           </CardDescription>
         </CardHeader>
         <CardContent className="space-y-4">
-          <Button variant="outline" className="w-full">
+          <Button variant="outline" className="w-full" onClick={signIn}>
             <Image src="https://www.svgrepo.com/show/353817/google-icon.svg" alt="Google" width={16} height={16} />
 
             Cadastrar com Google
