@@ -9,7 +9,7 @@ import { auth } from "@/lib/auth";
 
 import prisma from "@/lib/prisma";
 
-import { userSchema } from "@/server/schemas/user-schema";
+import { userSchema } from "@/server/user-schema";
 
 export const getUserById = async (id: string) => {
     const currentUser = await prisma.user.findFirst({
