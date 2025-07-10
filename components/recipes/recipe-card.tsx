@@ -14,9 +14,13 @@ import {
 
 interface RecipeCardProps {
 	recipe: Recipe;
+	isUnlocked?: boolean;
 }
 
-export default function RecipeCard({ recipe }: RecipeCardProps) {
+export default function RecipeCard({
+	recipe,
+	isUnlocked = false,
+}: RecipeCardProps) {
 	return (
 		<Card
 			key={recipe.id}
@@ -51,7 +55,11 @@ export default function RecipeCard({ recipe }: RecipeCardProps) {
 			</CardHeader>
 			<CardContent>
 				<div className="relative">
-					<p className="text-primary blur-sm select-none">
+										<p
+						className={`text-primary ${
+							!isUnlocked ? "blur-sm select-none" : ""
+						}`}
+					>
 						{recipe.description}
 					</p>
 				</div>
@@ -59,7 +67,7 @@ export default function RecipeCard({ recipe }: RecipeCardProps) {
 			<CardFooter>
 				<Button asChild className="w-full bg-primary hover:bg-primary">
 					<Link href={`/dashboard/recipes/${recipe.id}`}>
-						🔓 Desbloquear Receita
+						{isUnlocked ? "Ver Receita" : "🔓 Desbloquear Receita"}
 					</Link>
 				</Button>
 			</CardFooter>

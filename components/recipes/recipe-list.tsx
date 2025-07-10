@@ -7,9 +7,13 @@ import RecipeCard from "./recipe-card";
 
 interface RecipeListProps {
 	recipes: Recipe[];
+	unlockedRecipeIds: Set<string>;
 }
 
-export default function RecipeList({ recipes }: RecipeListProps) {
+export default function RecipeList({
+	recipes,
+	unlockedRecipeIds,
+}: RecipeListProps) {
 	const [visibleRecipes, setVisibleRecipes] = useState(6);
 
 	const showMoreRecipes = () => {
@@ -24,7 +28,11 @@ export default function RecipeList({ recipes }: RecipeListProps) {
 		<div>
 			<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 w-full mb-6">
 				{recipes.slice(0, visibleRecipes).map((recipe) => (
-					<RecipeCard key={recipe.id} recipe={recipe} />
+					<RecipeCard
+						key={recipe.id}
+						recipe={recipe}
+						isUnlocked={unlockedRecipeIds.has(recipe.id)}
+					/>
 				))}
 			</div>
 			<div className="flex flex-col space-y-3 items-center justify-center">

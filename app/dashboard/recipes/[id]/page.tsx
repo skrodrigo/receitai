@@ -1,9 +1,17 @@
 import { ChefHat, Clock, Star } from "lucide-react";
+import { headers } from "next/headers";
 import Image from "next/image";
 import FavoriteButton from "@/components/recipes/favorite-button";
+import UnlockButton from "@/components/recipes/unlock-button";
 import BackButton from "@/components/ui/back-button";
 import { Badge } from "@/components/ui/badge";
-import { GetRecipeById, isRecipeFavorited } from "@/server/recipe";
+import { auth } from "@/lib/auth";
+import {
+	GetRecipeById,
+	isRecipeFavorited,
+	isRecipeUnlocked,
+} from "@/server/recipe";
+import { getUserById } from "@/server/user";
 
 export const dynamic = "force-dynamic";
 
@@ -30,7 +38,19 @@ export default async function RecipePage({ params }: RecipePageProps) {
 		? (recipe.instructions as string[])
 		: [];
 
-	const isFavorited = await isRecipeFavorited(recipe.id);
+	const session = await auth.api.getSession({
+		headers: await headers(),
+	});
+
+	const [isFavorited, isUnlocked, user] = await Promise.all([
+		isRecipeFavorited(recipe.id),
+		isRecipeUnlocked(recipe.id),
+		session?.user?.id ? getUserById(session.user.id) : Promise.resolve(null),
+	]);
+
+	const contentClassName = !isUnlocked
+		? "blur-sm select-none pointer-events-none"
+		: "";
 
 	return (
 		<div className="bg-muted/40 min-h-screen py-12">
@@ -76,27 +96,40 @@ export default async function RecipePage({ params }: RecipePageProps) {
 							</div>
 						</div>
 
-						<div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-							<div className="md:col-span-1">
-								<h2 className="text-2xl font-bold mb-4 text-gray-800">
-									Ingredientes
-								</h2>
-								<ul className="list-disc list-inside space-y-3 text-gray-700 pl-2">
-									{ingredients.map((ingredient, _index) => (
-										<li key={ingredient}>{ingredient}</li>
-									))}
-								</ul>
-							</div>
+						<div className="relative">
+							{!isUnlocked && (
+								<div className="absolute inset-0 flex items-center justify-center z-10">
+									<UnlockButton
+										recipeId={recipe.id}
+										isUnlocked={isUnlocked}
+										userCredits={user?.data?.credits ?? 0}
+									/>
+								</div>
+							)}
+							<div
+								className={`grid grid-cols-1 md:grid-cols-3 gap-8 ${contentClassName}`}
+							>
+								<div className="md:col-span-1">
+									<h2 className="text-2xl font-bold mb-4 text-gray-800">
+										Ingredientes
+									</h2>
+									<ul className="list-disc list-inside space-y-3 text-gray-700 pl-2">
+										{ingredients.map((ingredient, _index) => (
+											<li key={ingredient}>{ingredient}</li>
+										))}
+									</ul>
+								</div>
 
-							<div className="md:col-span-2">
-								<h2 className="text-2xl font-bold mb-4 text-gray-800">
-									Modo de Preparo
-								</h2>
-								<ol className="list-decimal list-inside space-y-4 text-gray-700 pl-2">
-									{instructions.map((instruction, _index) => (
-										<li key={instruction}>{instruction}</li>
-									))}
-								</ol>
+								<div className="md:col-span-2">
+									<h2 className="text-2xl font-bold mb-4 text-gray-800">
+										Modo de Preparo
+									</h2>
+									<ol className="list-decimal list-inside space-y-4 text-gray-700 pl-2">
+										{instructions.map((instruction, _index) => (
+											<li key={instruction}>{instruction}</li>
+										))}
+									</ol>
+								</div>
 							</div>
 						</div>
 					</div>

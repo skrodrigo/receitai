@@ -19,7 +19,8 @@ export async function GetRecipes(categoryId?: string) {
 			data: recipes,
 			message: "Receitas obtidas com sucesso.",
 		};
-	} catch (_error) {
+	} catch (error) {
+		console.error(error);
 		return { success: false, error: "Ocorreu um erro ao buscar as receitas." };
 	}
 }
@@ -41,7 +42,8 @@ export const GetRecipeById = async (id: string) => {
 			data: recipe,
 			message: "Receita obtida com sucesso.",
 		};
-	} catch (_error) {
+	} catch (error) {
+		console.error(error);
 		return { success: false, error: "Ocorreu um erro ao buscar a receita." };
 	}
 };
@@ -63,7 +65,8 @@ export const GetFavoriteRecipes = async (userId: string) => {
 			data: recipes,
 			message: "Receitas favoritas obtidas com sucesso.",
 		};
-	} catch (_error) {
+	} catch (error) {
+		console.error(error);
 		return {
 			success: false,
 			error: "Ocorreu um erro ao buscar as receitas favoritas.",
@@ -109,8 +112,54 @@ export async function toggleFavorite(recipeId: string) {
 			revalidatePath(`/dashboard/recipes/${recipeId}`);
 			return { success: true, isFavorited: true };
 		}
-	} catch (_error) {
+	} catch (error) {
+		console.error(error);
 		return { error: "Ocorreu um erro ao favoritar a receita." };
+	}
+}
+
+export async function unlockRecipe(recipeId: string) {
+	const session = await auth.api.getSession({
+		headers: await headers(),
+	});
+
+	if (!session?.user?.id) {
+		return { success: false, error: "Usuário não autenticado." };
+	}
+
+	const userId = session.user.id;
+
+	try {
+		const user = await prisma.user.findUnique({
+			where: { id: userId },
+			select: { credits: true },
+		});
+
+		if (!user || user.credits < 1) {
+			return { success: false, error: "Créditos insuficientes." };
+		}
+
+		await prisma.$transaction([
+			prisma.user.update({
+				where: { id: userId },
+				data: { credits: { decrement: 1 } },
+			}),
+			prisma.userRecipe.create({
+				data: {
+					userId,
+					recipeId,
+				},
+			}),
+		]);
+
+		revalidatePath(`/dashboard/recipes/${recipeId}`);
+		return { success: true, message: "Receita desbloqueada com sucesso!" };
+	} catch (error) {
+		console.error(error);
+		return {
+			success: false,
+			error: "Ocorreu um erro ao desbloquear a receita.",
+		};
 	}
 }
 
@@ -137,5 +186,70 @@ export async function isRecipeFavorited(recipeId: string) {
 		return !!favorite;
 	} catch (_error) {
 		return false;
+	}
+}
+
+export async function isRecipeUnlocked(recipeId: string) {
+	const session = await auth.api.getSession({
+		headers: await headers(),
+	});
+	const userId = session?.user?.id;
+
+	if (!userId) {
+		return false;
+	}
+
+	try {
+		const unlockedRecipe = await prisma.userRecipe.findUnique({
+			where: {
+				userId_recipeId: {
+					userId,
+					recipeId,
+				},
+			},
+		});
+
+		return !!unlockedRecipe;
+	} catch (_error) {
+		return false;
+	}
+}
+
+export async function getUnlockedRecipes() {
+	const session = await auth.api.getSession({
+		headers: await headers(),
+	});
+	const userId = session?.user?.id;
+
+	if (!userId) {
+		return { success: false, error: "Usuário não autenticado." };
+	}
+
+	try {
+		const userRecipes = await prisma.userRecipe.findMany({
+			where: {
+				userId: userId,
+			},
+			include: {
+				recipe: true,
+			},
+			orderBy: {
+				unlockedAt: "desc",
+			},
+		});
+
+		const recipes = userRecipes.map((ur) => ur.recipe);
+
+		return {
+			success: true,
+			data: recipes,
+			message: "Receitas desbloqueadas obtidas com sucesso.",
+		};
+	} catch (error) {
+		console.error(error);
+		return {
+			success: false,
+			error: "Ocorreu um erro ao buscar as receitas desbloqueadas.",
+		};
 	}
 }

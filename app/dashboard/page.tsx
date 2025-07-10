@@ -4,7 +4,7 @@ import CategoryFilter from "@/components/categories/category-filter";
 import DashboardHeader from "@/components/dashboard/header/dashboard-header";
 import RecipeList from "@/components/recipes/recipe-list";
 import { GetCategories } from "@/server/category";
-import { GetRecipes } from "@/server/recipe";
+import { GetRecipes, getUnlockedRecipes } from "@/server/recipe";
 
 interface DashboardPageProps {
 	searchParams: Promise<{ categoryId?: string }>;
@@ -13,13 +13,17 @@ interface DashboardPageProps {
 export default async function Page({ searchParams }: DashboardPageProps) {
 	const { categoryId } = await searchParams;
 
-	const [categoriesResult, recipesResult] = await Promise.all([
+	const [categoriesResult, recipesResult, unlockedRecipesResult] = await Promise.all([
 		GetCategories(),
 		GetRecipes(categoryId),
+		getUnlockedRecipes(),
 	]);
 
 	const categories = categoriesResult.data || [];
 	const recipesList = recipesResult.data || [];
+	const unlockedRecipeIds = new Set(
+		(unlockedRecipesResult.data || []).map((r) => r.id)
+	);
 
 	return (
 		<div className="flex min-h-screen w-full flex-col bg-muted/40">
@@ -30,7 +34,7 @@ export default async function Page({ searchParams }: DashboardPageProps) {
 				</div>
 
 				{recipesList.length > 0 ? (
-					<RecipeList recipes={recipesList} />
+					<RecipeList recipes={recipesList} unlockedRecipeIds={unlockedRecipeIds} />
 				) : (
 					<div className="flex flex-col items-center justify-center h-full text-center p-8 mt-8">
 						<h2 className="text-2xl font-bold mb-2">
