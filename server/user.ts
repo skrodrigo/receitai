@@ -1,6 +1,5 @@
 "use server";
 
-
 import { headers } from "next/headers";
 import { redirect } from "next/navigation";
 import { z } from "zod";
@@ -126,6 +125,13 @@ export const signUp = async (_: unknown, formData: FormData): Promise<{
         }
     }
 }
+
+export const signOut = async () => {
+    await auth.api.signOut({
+        headers: await headers(),
+    });
+    redirect("/login");
+};
 
 export const getUserProfile = async () => {
     const session = await auth.api.getSession({

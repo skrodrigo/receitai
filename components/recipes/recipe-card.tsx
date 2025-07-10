@@ -59,12 +59,6 @@ export default function RecipeCard() {
             <CardContent>
               <div className="relative">
                 <p className="text-primary blur-sm select-none">{recipe.description}</p>
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="bg-primary/20 border-2 border-primary rounded-lg p-3 text-center">
-                    <Lock className="h-6 w-6 text-primary mx-auto mb-2" />
-                    <p className="text-sm text-primary font-medium">Conteúdo Bloqueado</p>
-                  </div>
-                </div>
               </div>
             </CardContent>
             <CardFooter>
