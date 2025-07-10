@@ -30,6 +30,7 @@ export async function POST(req: Request) {
 		const { secret, event, data } = payload;
 
 		const CaktoSecret = process.env.CAKTO_WEBHOOK_SECRET;
+
 		if (!CaktoSecret || secret !== CaktoSecret) {
 			console.warn("Segredo do webhook inválido ou não configurado.");
 			return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
