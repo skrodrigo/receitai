@@ -6,7 +6,7 @@ import { Badge } from "./ui/badge";
 export default async function DashboardHeader() {
   const session = await getUserSession();
 
-  // const credits = session?.user?.credits || 0;
+  const credits = session?.data?.user?.credits || 0;
 
   return (
     <header className="sticky z-30 flex h-12 items-center gap-4 p-3 border-b border-border">
@@ -30,7 +30,7 @@ export default async function DashboardHeader() {
       <div className="flex items-center gap-4">
           <div className="py-2 px-4 border rounded-lg bg-background">
             <p className="text-sm font-medium">
-              Créditos: <span className="font-bold">5</span>
+              Créditos: <span className="font-bold">{credits}</span>
             </p>
           </div>
         <Button><ShoppingCart /> Comprar Créditos</Button>

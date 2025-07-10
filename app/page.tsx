@@ -10,7 +10,11 @@ import Link from "next/link"
 
 export default async function Page() {
 
-  const recipes = await GetRecipes();
+  const { data: recipesList, error } = await GetRecipes();
+
+  if (error) {
+    return <div>Erro ao buscar receitas</div>
+  }
 
   const pricingPlans = [
     {
@@ -75,7 +79,7 @@ export default async function Page() {
       <section id="receitas" className="py-16">
         <div className="container mx-auto px-4">
           <h3 className="text-3xl font-bold text-center text-primary mb-12">🔥 Receitas Premium Exclusivas</h3>
-            <RecipeList recipes={recipes} />
+            {recipesList && <RecipeList recipes={recipesList} />}
         </div>
       </section>
 

@@ -11,7 +11,11 @@ import { GetRecipes } from "@/server/recipe";
 
 export default async function Page() {
 
-  const recipesList = await GetRecipes();
+  const { data: recipesList, error } = await GetRecipes();
+
+  if (error) {
+    return <div>Erro ao buscar receitas</div>
+  }
 
   return (
     <div className="flex min-h-screen w-full flex-col bg-muted/40">
@@ -29,7 +33,7 @@ export default async function Page() {
             <SelectItem value="sopas">Sopas</SelectItem>
           </SelectContent>
         </Select>
-        <RecipeList recipes={recipesList} />
+       {recipesList && <RecipeList recipes={recipesList} />}
       </main>
     </div>
   )
