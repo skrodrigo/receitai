@@ -104,8 +104,6 @@ model UserRecipe {
   @@map("user_recipes")
 }
 
-
-
 model Category {
   id        String   @id @default(cuid())
   name      String   @unique
