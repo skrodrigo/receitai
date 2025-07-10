@@ -18,7 +18,7 @@ model User {
   updatedAt       DateTime     @updatedAt
   sessions        Session[]
   accounts        Account[]
-  credits         Int          @default(10)
+  credits         Int          @default(1) 
   unlockedRecipes UserRecipe[]
   favorites       Favorite[]
 
@@ -75,13 +75,15 @@ model Recipe {
   id           String       @id @default(cuid())
   title        String
   description  String
+  image        String?
+  time         String
+  difficulty   String
+  rating       Float
   ingredients  Json
   instructions Json
   isPublic     Boolean      @default(false)
   createdAt    DateTime     @default(now())
   updatedAt    DateTime     @updatedAt
-  promptId     String       @unique
-  prompt       Prompt       @relation(fields: [promptId], references: [id])
   categoryId   String
   category     Category     @relation(fields: [categoryId], references: [id])
   unlockedBy   UserRecipe[]
@@ -102,16 +104,7 @@ model UserRecipe {
   @@map("user_recipes")
 }
 
-model Prompt {
-  id        String   @id @default(cuid())
-  title     String
-  template  String
-  recipe    Recipe?
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
 
-  @@map("prompts")
-}
 
 model Category {
   id        String   @id @default(cuid())

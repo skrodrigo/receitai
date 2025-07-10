@@ -1,5 +1,6 @@
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
-import RecipeCard from "@/components/recipes/recipe-card"
+import RecipeList from '@/components/recipes/recipe-list';
+import { GetRecipes } from "@/server/recipe";
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
@@ -7,7 +8,9 @@ import { ChefHat, Star, Users, Utensils } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
 
-export default function HomePage() {
+export default async function Page() {
+
+  const recipes = await GetRecipes();
 
   const pricingPlans = [
     {
@@ -72,7 +75,7 @@ export default function HomePage() {
       <section id="receitas" className="py-16">
         <div className="container mx-auto px-4">
           <h3 className="text-3xl font-bold text-center text-primary mb-12">🔥 Receitas Premium Exclusivas</h3>
-            <RecipeCard />
+            <RecipeList recipes={recipes} />
         </div>
       </section>
 

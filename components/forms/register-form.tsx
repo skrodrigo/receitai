@@ -54,9 +54,12 @@ export default function RegisterForm() {
   }
 
   const signInWithGoogle = async () => {
-    await authClient.signIn.social({
+    const { data, error } = await authClient.signIn.social({
       provider: "google",
     })
+    if (error) {
+      router.push("/login")
+    }
     router.push("/dashboard")
   }
 

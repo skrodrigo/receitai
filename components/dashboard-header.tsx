@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { getUserSession, signOut } from "@/server/user";
+import { ShoppingCart, SparkleIcon, Star, ChefHat } from "lucide-react";
+import { Badge } from "./ui/badge";
 
 export default async function DashboardHeader() {
   const session = await getUserSession();
@@ -8,18 +9,31 @@ export default async function DashboardHeader() {
   // const credits = session?.user?.credits || 0;
 
   return (
-    <header className="sticky top-0 z-30 flex h-12 items-center gap-4 border-b bg-background px-4 sm:static sm:h-auto sm:border-0 sm:bg-transparent sm:px-6">
-      <div className="flex-1">
+    <header className="sticky z-30 flex h-12 items-center gap-4 p-3 border-b border-border">
+      <div className="flex flex-1 justify-start items-center space-x-2">
+
+        <Button variant="outline">
+        <ChefHat  className="ml-2 w-4"/>  
+          Minhas Receitas          
+        </Button>
+        <Button variant="outline">
+        <Star className="ml-2 w-4 fill-primary text-primary"/>
+          Favoritos            
+        </Button>
+        <Button variant="outline">
+        <Badge>Em breve</Badge>
+          Receitas com IA       
+        <SparkleIcon className="ml-2 w-4 fill-primary text-primary"/>
+
+        </Button>
       </div>
       <div className="flex items-center gap-4">
-        <Card>
-          <CardContent className="p-2">
+          <div className="py-2 px-4 border rounded-lg bg-background">
             <p className="text-sm font-medium">
               Créditos: <span className="font-bold">5</span>
             </p>
-          </CardContent>
-        </Card>
-        <Button>Comprar Créditos</Button>
+          </div>
+        <Button><ShoppingCart /> Comprar Créditos</Button>
         <form action={signOut}>
           <Button type="submit" variant="outline">Sair</Button>
         </form>

@@ -11,48 +11,68 @@ import prisma from "@/lib/prisma";
 import { userSchema } from "@/server/user-schema";
 
 export const getUserById = async (id: string) => {
-    const currentUser = await prisma.user.findFirst({
-        where: {
-            id,
-        },
-    });
-
-    return currentUser;
+    try {
+        const currentUser = await prisma.user.findFirst({
+            where: {
+                id,
+            },
+        });
+        if (!currentUser) {
+            return { success: false, error: 'Usuário não encontrado.' };
+        }
+        return { success: true, data: currentUser, message: 'Usuário obtido com sucesso.' };
+    } catch (error) {
+        return { success: false, error: 'Ocorreu um erro ao buscar o usuário.' };
+    }
 }
 
 export const getUserByEmail = async (email: string) => {
-    const currentUser = await prisma.user.findFirst({
-        where: {
-            email,
-        },
-    });
-
-    return currentUser;
+    try {
+        const currentUser = await prisma.user.findFirst({
+            where: {
+                email,
+            },
+        });
+        if (!currentUser) {
+            return { success: false, error: 'Usuário não encontrado.' };
+        }
+        return { success: true, data: currentUser, message: 'Usuário obtido com sucesso.' };
+    } catch (error) {
+        return { success: false, error: 'Ocorreu um erro ao buscar o usuário.' };
+    }
 }
 
 export const getUserSession = async () => {
-    const session = await auth.api.getSession({
-        headers: await headers(),
-    });
+    try {
+        const session = await auth.api.getSession({
+            headers: await headers(),
+        });
 
-    if (!session?.user?.id) {
-        redirect("/login");
+        if (!session?.user?.id) {
+            redirect("/login");
+        }
+
+        const currentUser = await prisma.user.findFirst({
+            where: {
+                id: session?.user?.id,
+            },
+        });
+
+        if (!currentUser) {
+            redirect("/login");
+        }
+
+        return {
+            success: true,
+            data: {
+                ...session,
+                user: currentUser,
+            },
+            message: 'Sessão do usuário obtida com sucesso.'
+        };
+    } catch (error) {
+        return { success: false, error: 'Ocorreu um erro ao obter a sessão do usuário.' };
     }
-
-    const currentUser = await prisma.user.findFirst({
-        where: {
-            id: session?.user?.id,
-        },
-    });
-
-    if (!currentUser) {
-        redirect("/login");
-    }
-
-    return {
-        ...session,
-        user: currentUser,
-    };
 }
 
 export const signIn = async (_: unknown, formData: FormData): Promise<{
@@ -127,51 +147,67 @@ export const signUp = async (_: unknown, formData: FormData): Promise<{
 }
 
 export const signOut = async () => {
-    await auth.api.signOut({
-        headers: await headers(),
-    });
-    redirect("/login");
+    try {
+        await auth.api.signOut({
+            headers: await headers(),
+        });
+        redirect("/login");
+    } catch (error) {
+        redirect("/login");
+    }
 };
 
 export const getUserProfile = async () => {
-    const session = await auth.api.getSession({
-        headers: await headers(),
-    });
+    try {
+        const session = await auth.api.getSession({
+            headers: await headers(),
+        });
 
-    if (!session?.user?.id) {
-        throw new Error("User not found");
+        if (!session?.user?.id) {
+            return { success: false, error: 'Usuário não autenticado.' };
+        }
+
+        const userProfile = await prisma.user.findFirst({
+            where: {
+                id: session?.user?.id,
+            },
+        });
+
+        if (!userProfile) {
+            return { success: false, error: 'Perfil do usuário não encontrado.' };
+        }
+
+        return { success: true, data: userProfile, message: 'Perfil do usuário obtido com sucesso.' };
+    } catch (error) {
+        return { success: false, error: 'Ocorreu um erro ao buscar o perfil do usuário.' };
     }
-
-    const userProfile = await prisma.user.findFirst({
-        where: {
-            id: session?.user?.id,
-        },
-    });
-
-    return userProfile;
 }
 
 export const updateProfile = async (data: z.infer<typeof userSchema>) => {
-    const session = await getUserSession();
-
     try {
+        const session = await getUserSession();
+
+        if (!session.success || !session.data?.user?.id) {
+            return { success: false, error: 'Usuário não autenticado para atualização.' };
+        }
+
         await prisma.user.update({
             where: {
-                id: session?.user?.id,
+                id: session.data.user.id,
             },
             data,
         });
 
         return {
-            values: {
-                text: "Successfully updated profile.",
-            },
+            success: true,
+            message: "Perfil atualizado com sucesso.",
             redirect: "/dashboard",
         }
     } catch (e) {
         const error = e as Error;
         return {
-            errors: { message: [error.message || 'An unknown error occurred'] },
+            success: false, 
+            error: error.message || 'Ocorreu um erro ao atualizar o perfil.'
         }
     }
 }
