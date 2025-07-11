@@ -1981,7 +1981,7 @@ export const recipes = [
 		description:
 			"Sobremesa leve e colorida com gelatina e pedaços de frutas frescas. Perfeita para crianças e adultos!",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1599395213197-21a42f61537a?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "15 min",
 		rating: 4.6,
@@ -2006,7 +2006,7 @@ export const recipes = [
 		description:
 			"Carne moída refogada com cebola, tomate e pimentão. Um prato simples e perfeito para o dia a dia.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1594269877114-1520a8c2388b?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "20 min",
 		rating: 4.6,
@@ -2032,7 +2032,7 @@ export const recipes = [
 		description:
 			"Uma salada tropical com manga, abacate e um molho cítrico. Leve, refrescante e cheia de sabor!",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1555465910-34f36541566d?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "10 min",
 		rating: 4.7,
@@ -2057,7 +2057,7 @@ export const recipes = [
 		description:
 			"Sopa cremosa e leve de abobrinha com um toque de alho. Perfeita para um jantar rápido e saudável.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1579566343586-2473a216945e?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "20 min",
 		rating: 4.6,
@@ -2083,7 +2083,7 @@ export const recipes = [
 		description:
 			"Arroz soltinho com um toque de ervas frescas. Um acompanhamento simples e versátil.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1512058564366-185109023977?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "15 min",
 		rating: 4.6,
@@ -2108,7 +2108,7 @@ export const recipes = [
 		description:
 			"Suco energizante com laranja e beterraba, rico em vitaminas e super refrescante.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1521404113391-7fb16d137f8f?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "5 min",
 		rating: 4.6,
@@ -2132,7 +2132,7 @@ export const recipes = [
 		description:
 			"Clássico do café da manhã: pão torrado com ovo frito. Simples, rápido e delicioso!",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1482049016688-2d3e1b311543?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "10 min",
 		rating: 4.6,
@@ -2157,7 +2157,7 @@ export const recipes = [
 		description:
 			"Macarrão com um molho leve de limão, azeite e parmesão. Fresco e ideal para dias quentes.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1589154236943-acd3c35879a4?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "15 min",
 		rating: 4.7,
@@ -2183,7 +2183,7 @@ export const recipes = [
 		description:
 			"Lanche rápido com pasta de amendoim, banana e mel. Uma opção energética e saborosa!",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1528740096961-3798add19cb7?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "5 min",
 		rating: 4.6,
@@ -2207,7 +2207,7 @@ export const recipes = [
 		description:
 			"Risoto cremoso com camarões suculentos e um toque de limão. Elegante e fácil de fazer.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1596198161244-0010901844b2?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "25 min",
 		rating: 4.9,
@@ -2235,7 +2235,7 @@ export const recipes = [
 		description:
 			"Bolo fofinho de cenoura com cobertura de chocolate. Um clássico brasileiro, fácil e delicioso!",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1542327897-414ecb394e2e?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "25 min",
 		rating: 4.8,
@@ -2262,7 +2262,7 @@ export const recipes = [
 		description:
 			"Costela assada com um molho de mostarda e mel. Sabor marcante e fácil de preparar!",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1626081014873-19a910a35973?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "25 min",
 		rating: 4.8,
@@ -2288,7 +2288,7 @@ export const recipes = [
 		description:
 			"Mix de folhas verdes com nozes e molho de mostarda. Uma salada crocante e cheia de sabor.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1540420773420-2850a43e915d?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "10 min",
 		rating: 4.6,
@@ -2314,7 +2314,7 @@ export const recipes = [
 		description:
 			"Sopa cremosa de milho com um toque de creme de leite. Simples e reconfortante!",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1625943553222-2f085521e102?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "20 min",
 		rating: 4.6,
@@ -2341,7 +2341,7 @@ export const recipes = [
 		description:
 			"Puré cremoso de batata com um toque de alho assado. Um acompanhamento clássico e delicioso.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1614242239463-1d21b3a393ea?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "20 min",
 		rating: 4.7,
@@ -2367,7 +2367,7 @@ export const recipes = [
 		description:
 			"Coquetel refrescante com hortelã, limão, rum e água com gás. Perfeito para um dia quente!",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1551538850-2f9c4b2f1532?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "5 min",
 		rating: 4.8,
@@ -2393,7 +2393,7 @@ export const recipes = [
 		description:
 			"Ovos cozidos recheados com uma mistura cremosa de gema, maionese e mostarda. Um petisco fácil e clássico.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1588195538326-c5b1e9f80a1b?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "15 min",
 		rating: 4.6,
@@ -2419,7 +2419,7 @@ export const recipes = [
 		description:
 			"Macarrão com molho pesto de rúcula, nozes e parmesão. Um prato fresco e cheio de sabor!",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1627042599222-3a521a045c43?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "20 min",
 		rating: 4.7,
@@ -2446,7 +2446,7 @@ export const recipes = [
 		description:
 			"Pão tostado com queijo derretido. Um lanche simples e reconfortante para qualquer hora.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1528735602780-2552fd46c766?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "10 min",
 		rating: 4.6,
@@ -2470,7 +2470,7 @@ export const recipes = [
 		description:
 			"Bacalhau desfiado com batatas e molho cremoso de natas, gratinado até dourar.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1604555845591-6878c5054124?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "25 min",
 		rating: 4.8,
@@ -2496,7 +2496,7 @@ export const recipes = [
 		description:
 			"Brownie de chocolate com textura macia e bordas crocantes. Uma sobremesa fácil e irresistível!",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1590841528148-e865f1e16f5c?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "20 min",
 		rating: 4.8,
@@ -2522,7 +2522,7 @@ export const recipes = [
 		description:
 			"Lombo suíno assado com um molho agridoce de laranja. Um prato sofisticado e fácil de fazer.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1617470702894-3957b723f548?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "25 min",
 		rating: 4.7,
@@ -2548,7 +2548,7 @@ export const recipes = [
 		description:
 			"Uma mistura vibrante de frutas tropicais com um toque de suco de limão. Leve e refrescante!",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1562347810-39de32b63484?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "10 min",
 		rating: 4.6,
@@ -2573,7 +2573,7 @@ export const recipes = [
 		description:
 			"Sopa cremosa de batata com alho-poró. Um prato reconfortante para aquecer o dia!",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1605335133333-e9354e3f46f4?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "25 min",
 		rating: 4.7,
@@ -2600,7 +2600,7 @@ export const recipes = [
 		description:
 			"Batatas fatiadas com molho de queijo e creme de leite, gratinadas até dourar.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1599018440598-2510a7c452e6?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "25 min",
 		rating: 4.8,
@@ -2626,7 +2626,7 @@ export const recipes = [
 		description:
 			"Bebida cremosa e refrescante com manga, iogurte e um toque de mel. Ideal para o café da manhã ou lanche.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1578359488394-b74966a15555?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "5 min",
 		rating: 4.7,
@@ -2651,7 +2651,7 @@ export const recipes = [
 		description:
 			"Panquecas saudáveis feitas com aveia e banana. Perfeitas para um café da manhã nutritivo!",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1554520735-0a6b8b6ce8b7?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "15 min",
 		rating: 4.7,
@@ -2677,7 +2677,7 @@ export const recipes = [
 		description:
 			"Macarrão fusilli com molho de tomate caseiro e manjericão fresco. Simples e cheio de sabor!",
 		image:
-			"https://images.unsplash.com/photo-1621996346565-effa783496b1?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1608877908047-37a5f36e6a12?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "20 min",
 		rating: 4.7,
@@ -2703,7 +2703,7 @@ export const recipes = [
 		description:
 			"Sanduíche rápido com atum, maionese e vegetais frescos. Ideal para um lanche leve.",
 		image:
-			"https://images.unsplash.com/photo-1553909489-cd3e1e7f4c5e?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1515598633230-68a48658a523?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "10 min",
 		rating: 4.6,
@@ -2728,7 +2728,7 @@ export const recipes = [
 		description:
 			"Lagosta grelhada com manteiga de alho e ervas. Um prato sofisticado e fácil de preparar.",
 		image:
-			"https://images.unsplash.com/photo-1565728744385-96fd8f2a45b9?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1601314002598-a53784839ebb?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "20 min",
 		rating: 4.9,
@@ -2754,7 +2754,7 @@ export const recipes = [
 		description:
 			"Mousse leve e refrescante de maracujá, perfeita para encerrar uma refeição.",
 		image:
-			"https://images.unsplash.com/photo-1611941496552-6fc836b9e0e5?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1621235123164-3253a650d5ab?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "15 min",
 		rating: 4.8,
@@ -2779,7 +2779,7 @@ export const recipes = [
 		description:
 			"Carne cozida lentamente com cebola e tomate, ideal para um almoço reconfortante.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1598103442387-03775a17688c?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "25 min",
 		rating: 4.7,
@@ -2805,7 +2805,7 @@ export const recipes = [
 		description:
 			"Salada leve com quinoa, tomate cereja e um toque de limão. Nutritiva e refrescante!",
 		image:
-			"https://images.unsplash.com/photo-1505576399279-565b52d4ac71?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1512316609839-ce289d3eba0a?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "15 min",
 		rating: 4.6,
@@ -2830,7 +2830,7 @@ export const recipes = [
 		description:
 			"Sopa cremosa de espinafre com um toque de noz-moscada. Perfeita para dias frios!",
 		image:
-			"https://images.unsplash.com/photo-1572449043416-2409e3a781f7?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1478749485172-276b8aae7355?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "20 min",
 		rating: 4.6,
@@ -2856,7 +2856,7 @@ export const recipes = [
 		description:
 			"Brócolis refogado com alho e azeite. Um acompanhamento saudável e rápido.",
 		image:
-			"https://images.unsplash.com/photo-1583224964978-3b2f3b7f8d6b?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1630444108871-33a7dd96d3f3?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "15 min",
 		rating: 4.6,
@@ -2881,7 +2881,7 @@ export const recipes = [
 		description:
 			"Chá gelado com sabor de abacaxi, refrescante e perfeito para dias quentes.",
 		image:
-			"https://images.unsplash.com/photo-1505252585461-04db1eb84625?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1542664332-84137233157f?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "10 min",
 		rating: 4.7,
@@ -2907,7 +2907,7 @@ export const recipes = [
 		description:
 			"Omelete leve com tomate e manjericão fresco, ideal para um café da manhã rápido.",
 		image:
-			"https://images.unsplash.com/photo-1494597706398-77a991a6f58a?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1627206139629-233183570185?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "10 min",
 		rating: 4.6,
@@ -2933,7 +2933,7 @@ export const recipes = [
 		description:
 			"Ravioli recheado com molho delicado de manteiga e sálvia. Um prato sofisticado e fácil!",
 		image:
-			"https://images.unsplash.com/photo-1615716175167-88f9d032b615?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1563379926-898569c73875?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "15 min",
 		rating: 4.8,
@@ -2959,7 +2959,7 @@ export const recipes = [
 		description:
 			"Sanduíche com frango grelhado, abacate e maionese. Um lanche saudável e saboroso!",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1626082933433-228790c0a359?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "15 min",
 		rating: 4.7,
@@ -2985,7 +2985,7 @@ export const recipes = [
 		description:
 			"Tentáculos de polvo grelhados com azeite e limão. Um prato leve e sofisticado.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1625944015296-382a52ea9d9e?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "20 min",
 		rating: 4.8,
@@ -3010,7 +3010,7 @@ export const recipes = [
 		description:
 			"Torta cremosa de chocolate com base de biscoito. Uma sobremesa irresistível!",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1574085733277-851d9d856a3a?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "25 min",
 		rating: 4.9,
@@ -3035,7 +3035,7 @@ export const recipes = [
 		description:
 			"Bife empanado e frito, crocante por fora e suculento por dentro. Um clássico!",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1606313564205-5b8398353592?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "20 min",
 		rating: 4.7,
@@ -3062,7 +3062,7 @@ export const recipes = [
 		description:
 			"Salada clássica italiana com tomate, muçarela de búfala e manjericão, regada com azeite.",
 		image:
-			"https://images.unsplash.com/photo-1595432746849-3c8a2e2a7f6f?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "10 min",
 		rating: 4.8,
@@ -3087,7 +3087,7 @@ export const recipes = [
 		description:
 			"Sopa clássica de cebola caramelizada com caldo de carne, gratinada com queijo.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1547050691-e36967566144?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "25 min",
 		rating: 4.7,
@@ -3113,7 +3113,7 @@ export const recipes = [
 		description:
 			"Mix de legumes assados com azeite e ervas, perfeito como acompanhamento saudável.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1498579150354-97747516ea02?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "20 min",
 		rating: 4.6,
@@ -3138,7 +3138,7 @@ export const recipes = [
 		description:
 			"Suco refrescante de melancia com um toque cítrico de limão. Perfeito para o verão!",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1533160216443-4c30252192f4?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "5 min",
 		rating: 4.7,
@@ -3161,7 +3161,7 @@ export const recipes = [
 		description:
 			"Panquecas fofas de banana, perfeitas para um café da manhã rápido e saudável.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1528207776546-365bb710ee93?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "15 min",
 		rating: 4.7,
@@ -3187,7 +3187,7 @@ export const recipes = [
 		description:
 			"Lasanha leve com fatias de berinjela, molho de tomate e queijo. Saudável e deliciosa!",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1596797038539-717cb10a43ad?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "25 min",
 		rating: 4.7,
@@ -3213,7 +3213,7 @@ export const recipes = [
 		description:
 			"Sanduíche com ovo cozido, abacate e um toque de limão. Um lanche nutritivo!",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1525351484163-7529414344d8?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "10 min",
 		rating: 4.6,
@@ -3238,7 +3238,7 @@ export const recipes = [
 		description:
 			"Camarões crocantes empanados com farinha de rosca e fritos. Perfeito como petisco!",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1619526881542-254b341c925d?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "20 min",
 		rating: 4.8,
@@ -3265,7 +3265,7 @@ export const recipes = [
 		description:
 			"Torta com base crocante, creme de limão e merengue leve. Uma sobremesa refrescante!",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1588195538326-c5b1e9f80a1b?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "25 min",
 		rating: 4.9,
@@ -3319,7 +3319,7 @@ export const recipes = [
 		description:
 			"Abóbora assada com rúcula e queijo parmesão, regada com um molho de mel e mostarda.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1541544321-99999a46b9a2?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "20 min",
 		rating: 4.7,
@@ -3346,7 +3346,7 @@ export const recipes = [
 		description:
 			"Sopa cremosa de mandioquinha, perfeita para aquecer em dias frios.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1607532369797-175514f77717?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "20 min",
 		rating: 4.6,
@@ -3372,7 +3372,7 @@ export const recipes = [
 		description:
 			"Arroz soltinho com um toque de açafrão, ideal como acompanhamento sofisticado.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1587899532439-d8e75e468202?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "15 min",
 		rating: 4.6,
@@ -3397,7 +3397,7 @@ export const recipes = [
 		description:
 			"Clássico coquetel brasileiro com cachaça, limão e açúcar. Refrescante e fácil!",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1551538850-2f9c4b2f1532?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "5 min",
 		rating: 4.8,
@@ -3421,7 +3421,7 @@ export const recipes = [
 		description:
 			"Ovos mexidos cremosos com ervas frescas, perfeitos para o café da manhã.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1588013273468-437e066a416b?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "10 min",
 		rating: 4.6,
@@ -3447,7 +3447,7 @@ export const recipes = [
 		description:
 			"Macarrão com molho cremoso de queijo cheddar. Um prato rápido e reconfortante.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1541745537411-b8046dc6d66c?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "15 min",
 		rating: 4.7,
@@ -3473,7 +3473,7 @@ export const recipes = [
 		description:
 			"Sanduíche leve com ricota, tomate seco e rúcula. Ideal para um lanche rápido.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1528738333213-14a9b213b994?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "10 min",
 		rating: 4.6,
@@ -3497,7 +3497,7 @@ export const recipes = [
 		title: "🐟 Filé de Peixe Grelhado",
 		description: "Filé de peixe grelhado com limão e ervas, leve e saudável.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "15 min",
 		rating: 4.7,
@@ -3521,7 +3521,7 @@ export const recipes = [
 		description:
 			"Flan cremoso de baunilha com calda de caramelo. Uma sobremesa clássica!",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1488477181142-2374a83d73f4?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "25 min",
 		rating: 4.8,
@@ -3547,7 +3547,7 @@ export const recipes = [
 		description:
 			"Carne moída refogada com batata, ideal para um jantar rápido e saboroso.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1619888206921-9988005d54b1?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "20 min",
 		rating: 4.6,
@@ -3573,7 +3573,7 @@ export const recipes = [
 		description:
 			"Salada refrescante com feijão fradinho, tomate e cebola, temperada com limão.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1590301138241-7649d216a247?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "15 min",
 		rating: 4.6,
@@ -3598,7 +3598,7 @@ export const recipes = [
 		description:
 			"Sopa cremosa de abóbora com um toque de curry, perfeita para aquecer o dia.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1542621319-a1b4d37a89d1?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "20 min",
 		rating: 4.7,
@@ -3624,7 +3624,7 @@ export const recipes = [
 		description:
 			"Batatas cortadas em gomos, assadas com azeite e ervas. Um acompanhamento crocante!",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1518133683791-0b9de5a055f0?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "20 min",
 		rating: 4.7,
@@ -3649,7 +3649,7 @@ export const recipes = [
 		description:
 			"Suco refrescante de morango com hortelã, perfeito para dias quentes.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1525385133512-2f3bdd039054?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "5 min",
 		rating: 4.7,
@@ -3674,7 +3674,7 @@ export const recipes = [
 		description:
 			"Torta leve com ovos e espinafre, ideal para o café da manhã ou brunch.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1464226184880-aa1242c7f465?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "20 min",
 		rating: 4.7,
@@ -3700,7 +3700,7 @@ export const recipes = [
 		description:
 			"Macarrão com brócolis refogado em um molho leve de limão e azeite.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1598214886261-262e35b7501a?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "15 min",
 		rating: 4.6,
@@ -3726,7 +3726,7 @@ export const recipes = [
 		description:
 			"Sanduíche leve com peru, cream cheese e vegetais frescos. Perfeito para um lanche rápido.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1592415486654-792b78a03213?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "10 min",
 		rating: 4.6,
@@ -3750,7 +3750,7 @@ export const recipes = [
 		title: "🦑 Lulas ao Alho e Óleo",
 		description: "Lulas refogadas com alho e azeite, um prato leve e saboroso.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1606041921369-a16b9b1e95c1?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "15 min",
 		rating: 4.7,
@@ -3776,7 +3776,7 @@ export const recipes = [
 		description:
 			"Sorvete cremoso de baunilha, fácil de fazer sem máquina de sorvete.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1560008581-22462e25116c?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "20 min",
 		rating: 4.8,
@@ -3800,7 +3800,7 @@ export const recipes = [
 		title: "🍖 Filé Mignon ao Molho Madeira",
 		description: "Filé mignon grelhado com molho madeira rico e saboroso.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1629532598375-72a393437153?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "20 min",
 		rating: 4.9,
@@ -3825,7 +3825,7 @@ export const recipes = [
 		title: "🥗 Salada de Rodelas de Cebola",
 		description: "Salada refrescante com cebola roxa, tomate e molho de limão.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1563187834-1be693952777?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "10 min",
 		rating: 4.6,
@@ -3849,7 +3849,7 @@ export const recipes = [
 		title: "🥄 Creme de Alho-Poró",
 		description: "Sopa cremosa de alho-poró com batata, ideal para dias frios.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1605335133333-e9354e3f46f4?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "20 min",
 		rating: 4.7,
@@ -3875,7 +3875,7 @@ export const recipes = [
 		description:
 			"Cenouras glaceadas com mel e manteiga, um acompanhamento doce e saboroso.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1582534512214-d55c1f014169?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "15 min",
 		rating: 4.6,
@@ -3900,7 +3900,7 @@ export const recipes = [
 		description:
 			"Smoothie refrescante com morango, framboesa e iogurte. Ideal para o café da manhã.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1551728224773-863a0c5c3b9b?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "5 min",
 		rating: 4.7,
@@ -3925,7 +3925,7 @@ export const recipes = [
 		description:
 			"Ovos fritos com bacon crocante, um clássico do café da manhã.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1525351484163-7529414344d8?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "10 min",
 		rating: 4.7,
@@ -3950,7 +3950,7 @@ export const recipes = [
 		description:
 			"Macarrão com molho pesto de manjericão, nozes e parmesão. Fresco e saboroso!",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1613583363371-5511e23c72b8?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "15 min",
 		rating: 4.7,
@@ -3977,7 +3977,7 @@ export const recipes = [
 		description:
 			"Sanduíche com salame, queijo e alface, perfeito para um lanche rápido.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1626202115668-5428a1f6a0a0?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "5 min",
 		rating: 4.6,
@@ -4002,7 +4002,7 @@ export const recipes = [
 		description:
 			"Salmão assado com crosta de ervas frescas e limão, leve e elegante.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1599043513900-ed6fe01d3833?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "20 min",
 		rating: 4.8,
@@ -4026,7 +4026,7 @@ export const recipes = [
 		description:
 			"Bolo fofinho com pedaços de maçã e canela, perfeito para o lanche da tarde.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "25 min",
 		rating: 4.8,
@@ -4054,7 +4054,7 @@ export const recipes = [
 		description:
 			"Costelinha suína assada com molho de mel e mostarda, doce e picante.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1626081014873-19a910a35973?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "25 min",
 		rating: 4.8,
@@ -4080,7 +4080,7 @@ export const recipes = [
 		description:
 			"Salada fria de macarrão com vegetais e molho de iogurte, perfeita para o verão.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1598866594240-a3b5a454215a?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "15 min",
 		rating: 4.6,
@@ -4106,7 +4106,7 @@ export const recipes = [
 		description:
 			"Sopa cremosa de tomate com um toque de manjericão, ideal para dias frios.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1596788142438-e6d820b4112e?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "20 min",
 		rating: 4.7,
@@ -4132,7 +4132,7 @@ export const recipes = [
 		description:
 			"Couve-flor com molho de queijo, gratinada até dourar. Um acompanhamento delicioso!",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1579993521403-c343152d8879?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "20 min",
 		rating: 4.7,
@@ -4157,7 +4157,7 @@ export const recipes = [
 		description:
 			"Suco refrescante de maçã com um toque de canela, perfeito para o lanche.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1610435362402-d71239999124?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "5 min",
 		rating: 4.6,
@@ -4182,7 +4182,7 @@ export const recipes = [
 		description:
 			"Ovos fritos com tomate refogado, um café da manhã simples e saboroso.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1596797038539-717cb10a43ad?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "10 min",
 		rating: 4.6,
@@ -4207,7 +4207,7 @@ export const recipes = [
 		description:
 			"Macarrão simples com alho refogado em azeite, perfeito para uma refeição rápida.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1585973754960-93a0859c2299?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "15 min",
 		rating: 4.6,
@@ -4233,7 +4233,7 @@ export const recipes = [
 		description:
 			"Sanduíche vegano com hummus, cenoura e pepino. Leve e saudável!",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1540914124281-3425879413d9?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "10 min",
 		rating: 4.6,
@@ -4257,7 +4257,7 @@ export const recipes = [
 		title: "🦐 Camarão com Alho e Limão",
 		description: "Camarões refogados com alho e limão, um prato leve e rápido.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1598511829983-201a0b38374a?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "15 min",
 		rating: 4.7,
@@ -4282,32 +4282,7 @@ export const recipes = [
 		description:
 			"Pudim clássico de leite condensado com calda de caramelo, cremoso e irresistível.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
-		difficulty: "Fácil",
-		time: "25 min",
-		rating: 4.8,
-		isPublic: true,
-		categoryId: "cat-04",
-		ingredients: [
-			"1 lata de leite condensado",
-			"1 xícara de leite",
-			"3 ovos",
-			"1/2 xícara de açúcar para caramelo",
-		],
-		instructions: [
-			"Derreta o açúcar até formar um caramelo e despeje em uma forma.",
-			"Bata os ovos, leite condensado e leite no liquidificador.",
-			"Despeje na forma caramelizada.",
-			"Asse em banho-maria a 180°C por 20 minutos, leve à geladeira e desenforme.",
-		],
-	},
-	{
-		id: "166",
-		title: "🍮 Pudim de Leite",
-		description:
-			"Pudim clássico de leite condensado com calda de caramelo, cremoso e irresistível.",
-		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1578954206584-18a8d11598f3?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "25 min",
 		rating: 4.8,
@@ -4332,7 +4307,7 @@ export const recipes = [
 		description:
 			"Espaguete com molho cremoso de camarão, alho e tomate. Um prato elegante e rápido.",
 		image:
-			"https://images.unsplash.com/photo-1621996346565-effa783496b1?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1595908129323-c2a433e5d9c2?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "20 min",
 		rating: 4.8,
@@ -4359,7 +4334,7 @@ export const recipes = [
 		description:
 			"Wrap com frango grelhado, vegetais frescos e molho de iogurte. Leve e saboroso.",
 		image:
-			"https://images.unsplash.com/photo-1553909489-cd3e1e7f4c5e?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1528735602780-2552fd46c766?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "15 min",
 		rating: 4.7,
@@ -4386,7 +4361,7 @@ export const recipes = [
 		description:
 			"Risoto cremoso com lagosta e toque de limão. Perfeito para ocasiões especiais.",
 		image:
-			"https://images.unsplash.com/photo-1565728744385-96fd8f2a45b9?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1596198161244-0010901844b2?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "25 min",
 		rating: 4.9,
@@ -4414,7 +4389,7 @@ export const recipes = [
 		description:
 			"Doce brasileiro clássico, feito com chocolate e leite condensado. Irresistível!",
 		image:
-			"https://images.unsplash.com/photo-1611941496552-6fc836b9e0e5?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1581723499887-b179b0068a0d?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "15 min",
 		rating: 4.8,
@@ -4439,7 +4414,7 @@ export const recipes = [
 		description:
 			"Coxas de frango assadas com ervas e limão, suculentas e cheias de sabor.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1598514983318-76c9a35359a1?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "25 min",
 		rating: 4.7,
@@ -4463,7 +4438,7 @@ export const recipes = [
 		description:
 			"Salada nutritiva com grão-de-bico, pepino e molho de limão. Leve e refrescante.",
 		image:
-			"https://images.unsplash.com/photo-1505576399279-565b52d4ac71?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1582536764516-2d97a66160b4?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "10 min",
 		rating: 4.6,
@@ -4488,7 +4463,7 @@ export const recipes = [
 		description:
 			"Sopa reconfortante de lentilha com vegetais e especiarias. Ideal para dias frios.",
 		image:
-			"https://images.unsplash.com/photo-1572449043416-2409e3a781f7?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1518492472492-71c258e22338?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "25 min",
 		rating: 4.7,
@@ -4515,7 +4490,7 @@ export const recipes = [
 		description:
 			"Purê cremoso de batata com manteiga e leite. Um acompanhamento clássico.",
 		image:
-			"https://images.unsplash.com/photo-1583224964978-3b2f3b7f8d6b?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1614242239463-1d21b3a393ea?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "20 min",
 		rating: 4.6,
@@ -4539,7 +4514,7 @@ export const recipes = [
 		description:
 			"Limonada refrescante com folhas de hortelã. Perfeita para dias quentes.",
 		image:
-			"https://images.unsplash.com/photo-1505252585461-04db1eb84625?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1595781403049-3702a0a38b14?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "5 min",
 		rating: 4.7,
@@ -4564,7 +4539,7 @@ export const recipes = [
 		description:
 			"Ovos pochê com molho holandês e bacon, servidos sobre pão. Um café da manhã sofisticado.",
 		image:
-			"https://images.unsplash.com/photo-1494597706398-77a991a6f58a?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1528607929212-2636ec44253e?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "20 min",
 		rating: 4.8,
@@ -4590,7 +4565,7 @@ export const recipes = [
 		description:
 			"Fettuccine com molho cremoso de parmesão e creme de leite. Um clássico italiano.",
 		image:
-			"https://images.unsplash.com/photo-1615716175167-88f9d032b615?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1574883921384-e461a259d4c7?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "20 min",
 		rating: 4.7,
@@ -4616,7 +4591,7 @@ export const recipes = [
 		description:
 			"Sanduíche simples com mortadela, queijo e alface. Um lanche rápido e saboroso.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1549552148-189c16be70d0?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "5 min",
 		rating: 4.6,
@@ -4641,7 +4616,7 @@ export const recipes = [
 		description:
 			"Anéis de lula empanados e fritos, crocantes e perfeitos como petisco.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1559047124357-d5b839893d5f?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "20 min",
 		rating: 4.7,
@@ -4668,7 +4643,7 @@ export const recipes = [
 		description:
 			"Cheesecake com base de biscoito e cobertura de morango. Uma sobremesa refrescante.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1565791383-34942054a10d?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "25 min",
 		rating: 4.8,
@@ -4693,7 +4668,7 @@ export const recipes = [
 		title: "🍖 Churrasco de Picanha",
 		description: "Picanha grelhada com sal grosso, suculenta e cheia de sabor.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "20 min",
 		rating: 4.9,
@@ -4712,7 +4687,7 @@ export const recipes = [
 		description:
 			"Beterraba assada com rúcula e queijo feta, temperada com vinagre balsâmico.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1597112028821-f09d17d5c760?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "20 min",
 		rating: 4.7,
@@ -4738,7 +4713,7 @@ export const recipes = [
 		description:
 			"Sopa cremosa de batata com pedaços de bacon crocante. Reconfortante e saborosa.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1621235020967-73c3817f731d?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "25 min",
 		rating: 4.7,
@@ -4764,7 +4739,7 @@ export const recipes = [
 		description:
 			"Abobrinha refogada com alho e ervas, um acompanhamento leve e rápido.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1594747752496-98114f05e3f4?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "15 min",
 		rating: 4.6,
@@ -4790,7 +4765,7 @@ export const recipes = [
 		description:
 			"Chá gelado de hibisco com toque de laranja, refrescante e saudável.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1549488344-12328141434c?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "10 min",
 		rating: 4.7,
@@ -4815,7 +4790,7 @@ export const recipes = [
 		description:
 			"Omelete simples com queijo derretido, perfeito para um café da manhã rápido.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1609951659556-33f4a34e23a4?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "10 min",
 		rating: 4.6,
@@ -4840,7 +4815,7 @@ export const recipes = [
 		description:
 			"Macarrão com molho cremoso de gorgonzola, rico e cheio de sabor.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1627042599222-3a521a045c43?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "15 min",
 		rating: 4.7,
@@ -4866,7 +4841,7 @@ export const recipes = [
 		description:
 			"Sanduíche com pasta de atum, maionese e cebola. Simples e delicioso.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1515598633230-68a48658a523?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "10 min",
 		rating: 4.6,
@@ -4891,7 +4866,7 @@ export const recipes = [
 		description:
 			"Salmão grelhado com molho agridoce de maracujá. Uma combinação sofisticada.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1625943553335-a68153435165?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "20 min",
 		rating: 4.8,
@@ -4915,7 +4890,7 @@ export const recipes = [
 		description:
 			"Bolo fofinho de cenoura com cobertura cremosa de chocolate. Um clássico brasileiro.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1542327897-414ecb394e2e?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "25 min",
 		rating: 4.8,
@@ -4944,7 +4919,7 @@ export const recipes = [
 		description:
 			"Costela assada lentamente com alho e ervas, macia e suculenta.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1598514483030-b3b3a6479b18?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "25 min",
 		rating: 4.8,
@@ -4968,7 +4943,7 @@ export const recipes = [
 		description:
 			"Salada refrescante com manga, rúcula e molho de limão. Leve e tropical.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1555465910-34f36541566d?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "10 min",
 		rating: 4.7,
@@ -4993,7 +4968,7 @@ export const recipes = [
 		description:
 			"Creme de milho suave e reconfortante, perfeito para um jantar leve.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1625943553222-2f085521e102?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "20 min",
 		rating: 4.6,
@@ -5019,7 +4994,7 @@ export const recipes = [
 		description:
 			"Brócolis cozido com molho de alho e azeite. Um acompanhamento saudável.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1630444108871-33a7dd96d3f3?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "15 min",
 		rating: 4.6,
@@ -5043,7 +5018,7 @@ export const recipes = [
 		description:
 			"Suco refrescante de laranja com toque picante de gengibre. Saudável e energizante.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1600271886742-f049cd451bba?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "5 min",
 		rating: 4.7,
@@ -5068,7 +5043,7 @@ export const recipes = [
 		description:
 			"Ovos mexidos com espinafre fresco, ideal para um café da manhã nutritivo.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1482049016688-2d3e1b311543?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "10 min",
 		rating: 4.6,
@@ -5093,7 +5068,7 @@ export const recipes = [
 		description:
 			"Penne com molho cremoso de abóbora e toque de noz-moscada. Aconchegante e saboroso.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1611270418597-a6c73f33c9b1?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "20 min",
 		rating: 4.7,
@@ -5119,7 +5094,7 @@ export const recipes = [
 		description:
 			"Sanduíche clássico com presunto, queijo e maionese. Simples e rápido.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1553909489-cd47e0907910?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "5 min",
 		rating: 4.6,
@@ -5144,7 +5119,7 @@ export const recipes = [
 		description:
 			"Camarões cozidos em molho de leite de coco e tomate. Sabor tropical e cremoso.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1579887829426-205a21e71391?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "20 min",
 		rating: 4.8,
@@ -5169,7 +5144,7 @@ export const recipes = [
 		title: "🍮 Mousse de Chocolate",
 		description: "Mousse leve e cremosa de chocolate, perfeita para sobremesa.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1586985289936-e04b4f5351a8?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "15 min",
 		rating: 4.8,
@@ -5194,7 +5169,7 @@ export const recipes = [
 		description:
 			"Carne de porco grelhada com molho agridoce de abacaxi. Sabor exótico e fácil.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1598438138728-65f838dc1b3a?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "20 min",
 		rating: 4.7,
@@ -5219,7 +5194,7 @@ export const recipes = [
 		description:
 			"Salada leve com quinoa, abacate e molho de limão. Saudável e refrescante.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1505575912234-2d93e507c5b3?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "15 min",
 		rating: 4.6,
@@ -5244,7 +5219,7 @@ export const recipes = [
 		description:
 			"Sopa cremosa de abóbora com um toque picante de gengibre. Ideal para dias frios.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1476856423024-c8502d1d73c7?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "20 min",
 		rating: 4.7,
@@ -5270,7 +5245,7 @@ export const recipes = [
 		description:
 			"Batata doce assada com azeite e ervas, um acompanhamento saudável e saboroso.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1599540032483-c4b2f2939f50?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "20 min",
 		rating: 4.6,
@@ -5295,7 +5270,7 @@ export const recipes = [
 		description:
 			"Suco refrescante de melão com toque cítrico de limão. Perfeito para o verão.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1551103399447-39327e5c544b?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "5 min",
 		rating: 4.7,
@@ -5320,7 +5295,7 @@ export const recipes = [
 		description:
 			"Ovos fritos com presunto, um café da manhã simples e saboroso.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1550993100253-968c999c089a?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "10 min",
 		rating: 4.6,
@@ -5344,7 +5319,7 @@ export const recipes = [
 		description:
 			"Macarrão com molho leve de azeite, alho e ervas frescas. Simples e aromático.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1595295333158-4742f28fbd85?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "15 min",
 		rating: 4.6,
@@ -5370,7 +5345,7 @@ export const recipes = [
 		description:
 			"Sanduíche vegano com tomate, manjericão e azeite. Leve e refrescante.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1528738333213-14a9b213b994?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "5 min",
 		rating: 4.6,
@@ -5394,7 +5369,7 @@ export const recipes = [
 		description:
 			"Polvo cozido com batatas e azeite, um prato mediterrâneo simples e saboroso.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1625944015296-382a52ea9d9e?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "25 min",
 		rating: 4.8,
@@ -5420,7 +5395,7 @@ export const recipes = [
 		description:
 			"Torta clássica com recheio de maçã e canela, perfeita para o lanche da tarde.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1589217157367-545a14a938b3?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "25 min",
 		rating: 4.8,
@@ -5448,7 +5423,7 @@ export const recipes = [
 		description:
 			"Filé de frango crocante empanado com farinha de rosca. Simples e delicioso.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1629503460697-3362fa7439e6?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "20 min",
 		rating: 4.7,
@@ -5475,7 +5450,7 @@ export const recipes = [
 		description:
 			"Salada com mix de folhas, nozes e molho de mostarda. Leve e crocante.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1540420773420-2850a43e915d?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "10 min",
 		rating: 4.6,
@@ -5500,7 +5475,7 @@ export const recipes = [
 		description:
 			"Sopa cremosa de ervilha com toque de hortelã. Reconfortante e fácil.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1595101609104-1e8c3b7076d5?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "20 min",
 		rating: 4.7,
@@ -5526,7 +5501,7 @@ export const recipes = [
 		description:
 			"Mix de legumes salteados com azeite e alho. Um acompanhamento colorido.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1518902504953-667c31b34f8a?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "15 min",
 		rating: 4.6,
@@ -5552,7 +5527,7 @@ export const recipes = [
 		description:
 			"Suco refrescante de abacaxi com toque de hortelã. Ideal para dias quentes.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1525385133512-2f3bdd039054?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "5 min",
 		rating: 4.7,
@@ -5577,7 +5552,7 @@ export const recipes = [
 		description:
 			"Ovos mexidos com queijo e tomate, perfeitos para um café da manhã rápido.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1644704170914-b254a62c5b73?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "10 min",
 		rating: 4.6,
@@ -5603,7 +5578,7 @@ export const recipes = [
 		description:
 			"Tagliatelle com molho cremoso de cogumelos frescos. Um prato sofisticado e fácil.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1612999436489-c45422472666?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "20 min",
 		rating: 4.7,
@@ -5629,7 +5604,7 @@ export const recipes = [
 		description:
 			"Sanduíche com frango desfiado e maionese de ervas. Saboroso e rápido.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1553909489-cd47e0907910?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "10 min",
 		rating: 4.6,
@@ -5654,7 +5629,7 @@ export const recipes = [
 		description:
 			"Filé de atum grelhado com crosta de gergelim. Leve e saudável.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1621532135091-ba19a6423537?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "15 min",
 		rating: 4.8,
@@ -5679,7 +5654,7 @@ export const recipes = [
 		description:
 			"Pavê com camadas de creme de chocolate e biscoito. Uma sobremesa clássica.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1631206950346-65c2b812f354?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "20 min",
 		rating: 4.8,
@@ -5705,7 +5680,7 @@ export const recipes = [
 		description:
 			"Carne moída refogada com ervilha e molho de tomate. Um prato rápido e saboroso.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1594269877114-1520a8c2388b?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "20 min",
 		rating: 4.7,
@@ -5731,7 +5706,7 @@ export const recipes = [
 		description:
 			"Salada refrescante de pepino com molho de iogurte e hortelã. Leve e saudável.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1572441716333-58535e679a78?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "10 min",
 		rating: 4.6,
@@ -5756,7 +5731,7 @@ export const recipes = [
 		description:
 			"Sopa cremosa de brócolis com toque de queijo. Ideal para um jantar leve.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1550950247-909b9f7a4213?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "20 min",
 		rating: 4.7,
@@ -5782,7 +5757,7 @@ export const recipes = [
 		description:
 			"Batatas fritas crocantes feitas em casa, perfeitas como acompanhamento ou petisco.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1598679253443-4b36b4372993?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "20 min",
 		rating: 4.7,
@@ -5802,7 +5777,7 @@ export const recipes = [
 		description:
 			"Smoothie cremoso de manga com iogurte. Refrescante e nutritivo.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1578359488394-b74966a15555?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "5 min",
 		rating: 4.7,
@@ -5827,7 +5802,7 @@ export const recipes = [
 		description:
 			"Ovos mexidos com salsicha, um café da manhã rápido e saboroso.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1594212699903-ec8a64e1f972?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "10 min",
 		rating: 4.6,
@@ -5851,7 +5826,7 @@ export const recipes = [
 		description:
 			"Macarrão com molho de tomate caseiro e ricota cremosa. Simples e delicioso.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1621996346565-e326e20f5168?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "20 min",
 		rating: 4.7,
@@ -5877,7 +5852,7 @@ export const recipes = [
 		description:
 			"Sanduíche com ovo frito, bacon crocante e alface. Um lanche clássico.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1563728095113-4015f399e3a1?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "10 min",
 		rating: 4.7,
@@ -5903,7 +5878,7 @@ export const recipes = [
 		description:
 			"Camarões refogados com molho de alho e manteiga. Saboroso e rápido.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1598511829983-201a0b38374a?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "15 min",
 		rating: 4.8,
@@ -5928,7 +5903,7 @@ export const recipes = [
 		title: "🍮 Mousse de Limão",
 		description: "Mousse refrescante de limão, leve e fácil de preparar.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1616551069279-a1083e4a4216?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "15 min",
 		rating: 4.8,
@@ -5952,7 +5927,7 @@ export const recipes = [
 		title: "🍖 Filé Mignon ao Molho Madeira",
 		description: "Filé mignon grelhado com molho madeira, elegante e saboroso.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1629532598375-72a393437153?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "25 min",
 		rating: 4.9,
@@ -5976,7 +5951,7 @@ export const recipes = [
 		title: "🥗 Salada Caprese",
 		description: "Salada clássica com tomate, muçarela de búfala e manjericão.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "10 min",
 		rating: 4.7,
@@ -6001,7 +5976,7 @@ export const recipes = [
 		description:
 			"Sopa cremosa de tomate com toque de manjericão, perfeita para dias frios.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1596788142438-e6d820b4112e?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "20 min",
 		rating: 4.7,
@@ -6027,7 +6002,7 @@ export const recipes = [
 		description:
 			"Cenouras glaceadas com mel e manteiga, um acompanhamento doce e macio.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1582534512214-d55c1f014169?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "15 min",
 		rating: 4.6,
@@ -6051,7 +6026,7 @@ export const recipes = [
 		title: "🍹 Suco de Melancia com Limão",
 		description: "Suco refrescante de melancia com toque cítrico de limão.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1533160216443-4c30252192f4?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "5 min",
 		rating: 4.7,
@@ -6076,7 +6051,7 @@ export const recipes = [
 		description:
 			"Ovos mexidos com bacon crocante e tomate, ideal para o café da manhã.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1525351484163-7529414344d8?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "10 min",
 		rating: 4.7,
@@ -6102,7 +6077,7 @@ export const recipes = [
 		description:
 			"Spaghetti com molho de alho, azeite e pimenta. Simples e clássico.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1585973754960-93a0859c2299?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "15 min",
 		rating: 4.6,
@@ -6127,7 +6102,7 @@ export const recipes = [
 		title: "🥪 Sanduíche de Pasta de Ricota",
 		description: "Sanduíche leve com pasta de ricota, tomate e manjericão.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1628216394294-f1454146a48d?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "5 min",
 		rating: 4.6,
@@ -6152,7 +6127,7 @@ export const recipes = [
 		description:
 			"Lagosta grelhada com manteiga de alho, um prato sofisticado e fácil.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1601314002598-a53784839ebb?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "20 min",
 		rating: 4.9,
@@ -6178,7 +6153,7 @@ export const recipes = [
 		description:
 			"Sobremesa italiana com camadas de creme mascarpone e biscoito embebido em café.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "20 min",
 		rating: 4.8,
@@ -6204,7 +6179,7 @@ export const recipes = [
 		description:
 			"Costelinha suína assada com molho barbecue, macia e saborosa.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1544025162-d76694265947?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "25 min",
 		rating: 4.8,
@@ -6228,7 +6203,7 @@ export const recipes = [
 		description:
 			"Salada refrescante com feijão fradinho, tomate e cebola, temperada com limão.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1590301138241-7649d216a247?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "10 min",
 		rating: 4.6,
@@ -6252,7 +6227,7 @@ export const recipes = [
 		title: "🥄 Creme de Cebola",
 		description: "Creme suave de cebola, perfeito para aquecer no inverno.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1547050691-e36967566144?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "20 min",
 		rating: 4.7,
@@ -6278,7 +6253,7 @@ export const recipes = [
 		description:
 			"Mandioca frita crocante, ideal como acompanhamento ou petisco.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1630752109923-2895f874f63c?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "20 min",
 		rating: 4.7,
@@ -6298,7 +6273,7 @@ export const recipes = [
 		description:
 			"Suco refrescante de maçã com toque de canela, ideal para o dia a dia.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1546852232-15f75e21518f?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "5 min",
 		rating: 4.7,
@@ -6323,7 +6298,7 @@ export const recipes = [
 		description:
 			"Ovos mexidos com ervas frescas, um café da manhã leve e aromático.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1588013273468-437e066a416b?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "10 min",
 		rating: 4.6,
@@ -6348,7 +6323,7 @@ export const recipes = [
 		description:
 			"Fusilli com molho pesto de manjericão, um prato italiano rápido e saboroso.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1608877908047-37a5f36e6a12?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "15 min",
 		rating: 4.7,
@@ -6375,7 +6350,7 @@ export const recipes = [
 		description:
 			"Sanduíche com peru, abacate e maionese, perfeito para um lanche leve.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1626082933433-228790c0a359?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "5 min",
 		rating: 4.6,
@@ -6400,7 +6375,7 @@ export const recipes = [
 		description:
 			"Camarões empanados e fritos, crocantes e perfeitos como petisco.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1619526881542-254b341c925d?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "20 min",
 		rating: 4.8,
@@ -6427,7 +6402,7 @@ export const recipes = [
 		description:
 			"Bolo fofinho de laranja com calda cítrica, ideal para o lanche da tarde.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1547644264-b0a70f1a92a5?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "25 min",
 		rating: 4.8,
@@ -6455,7 +6430,7 @@ export const recipes = [
 		description:
 			"Frango cozido com molho de curry e leite de coco, exótico e saboroso.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1598515214211-89d3c7373051?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "20 min",
 		rating: 4.7,
@@ -6481,7 +6456,7 @@ export const recipes = [
 		description:
 			"Salada simples com tomate, cebola roxa e molho de azeite, fresca e leve.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1563187834-1be693952777?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "10 min",
 		rating: 4.6,
@@ -6506,7 +6481,7 @@ export const recipes = [
 		description:
 			"Sopa cremosa de abóbora com toque de queijo, reconfortante e fácil.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1509931923126-a4f0c0f5f8b7?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "20 min",
 		rating: 4.7,
@@ -6532,7 +6507,7 @@ export const recipes = [
 		description:
 			"Couve-flor assada com azeite e especiarias, um acompanhamento saudável.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1603201667141-5a2d4c673378?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "20 min",
 		rating: 4.6,
@@ -6557,7 +6532,7 @@ export const recipes = [
 		description:
 			"Smoothie cremoso de morango com iogurte, perfeito para o café da manhã.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1541658016709-82535e94bc69?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "5 min",
 		rating: 4.7,
@@ -6582,7 +6557,7 @@ export const recipes = [
 		description:
 			"Ovos mexidos com cebolinha, simples e perfeito para o café da manhã.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1596602236398-3f5f87b8f2c3?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "10 min",
 		rating: 4.6,
@@ -6607,7 +6582,7 @@ export const recipes = [
 		description:
 			"Penne com molho de tomate e manjericão fresco, simples e aromático.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "15 min",
 		rating: 4.7,
@@ -6633,7 +6608,7 @@ export const recipes = [
 		description:
 			"Sanduíche com queijo cremoso, tomate e orégano, rápido e saboroso.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1604512933619-333e65922315?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "5 min",
 		rating: 4.6,
@@ -6657,7 +6632,7 @@ export const recipes = [
 		title: "🦑 Anéis de Lula ao Molho de Tomate",
 		description: "Lula refogada com molho de tomate, um prato leve e saboroso.",
 		image:
-			"https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+			"https://images.unsplash.com/photo-1545532594-e6e16b907da9?w=400&h=300&fit=crop",
 		difficulty: "Fácil",
 		time: "20 min",
 		rating: 4.8,
