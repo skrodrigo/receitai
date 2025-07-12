@@ -68,7 +68,7 @@ export default async function RecipePage({ params }: RecipePageProps) {
 						</div>
 					)}
 					<div className="p-6 md:p-8">
-						<div className="flex justify-between items-start mb-4">
+						<div className="md:flex-row flex flex-col space-y-2 justify-between items-start mb-4">
 							<h1 className="text-3xl md:text-5xl font-extrabold text-gray-900 tracking-tight flex-1 pr-4">
 								{recipe.title}
 							</h1>
