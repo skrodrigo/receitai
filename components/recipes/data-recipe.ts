@@ -21,6 +21,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "45 min",
 		rating: 4.7,
+		isPublic: false,
 		categoryId: "cat-02",
 		ingredients: [
 			"200g de lentilhas vermelhas",
@@ -46,6 +47,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "25 min",
 		rating: 4.6,
+		isPublic: false,
 		categoryId: "cat-02",
 		ingredients: [
 			"1 maço de aspargos",
@@ -70,6 +72,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "10 min",
 		rating: 4.5,
+		isPublic: false,
 		categoryId: "cat-05",
 		ingredients: [
 			"1 maço de couve fatiada",
@@ -92,6 +95,7 @@ export const recipes = [
 		difficulty: "Médio",
 		time: "6h",
 		rating: 4.9,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"1kg de carne para ensopado",
@@ -117,6 +121,7 @@ export const recipes = [
 		difficulty: "Médio",
 		time: "50 min",
 		rating: 4.7,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"1 xícara de arroz",
@@ -141,6 +146,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "30 min",
 		rating: 4.6,
+		isPublic: false,
 		categoryId: "cat-05",
 		ingredients: [
 			"1 xícara de arroz integral cozido",
@@ -165,6 +171,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "20 min",
 		rating: 4.8,
+		isPublic: false,
 		categoryId: "cat-03",
 		ingredients: [
 			"1 xícara de quinoa cozida",
@@ -188,6 +195,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "40 min",
 		rating: 5.0,
+		isPublic: false,
 		categoryId: "cat-05",
 		ingredients: [
 			"1 xícara de arroz",
@@ -211,6 +219,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "35 min",
 		rating: 4.8,
+		isPublic: false,
 		categoryId: "cat-02",
 		ingredients: [
 			"2 latas de feijão branco",
@@ -235,6 +244,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "30 min",
 		rating: 4.7,
+		isPublic: false,
 		categoryId: "cat-05",
 		ingredients: [
 			"500g de couve de Bruxelas",
@@ -257,6 +267,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "7h",
 		rating: 4.8,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"800g de pernil de porco em cubos",
@@ -281,6 +292,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "5 min",
 		rating: 4.9,
+		isPublic: false,
 		categoryId: "cat-07",
 		ingredients: [
 			"1 colher de chá de matcha em pó",
@@ -303,6 +315,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "25 min",
 		rating: 4.6,
+		isPublic: false,
 		categoryId: "cat-05",
 		ingredients: [
 			"1 xícara de quinoa",
@@ -327,6 +340,7 @@ export const recipes = [
 		difficulty: "Médio",
 		time: "40 min",
 		rating: 4.7,
+		isPublic: false,
 		categoryId: "cat-06",
 		ingredients: [
 			"Massa para rolinho primavera",
@@ -351,6 +365,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "35 min",
 		rating: 4.8,
+		isPublic: false,
 		categoryId: "cat-05",
 		ingredients: [
 			"1 xícara de farro",
@@ -375,6 +390,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "50 min",
 		rating: 4.6,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"6 ovos",
@@ -399,6 +415,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "40 min",
 		rating: 4.7,
+		isPublic: false,
 		categoryId: "cat-02",
 		ingredients: [
 			"2 latas de feijão branco",
@@ -423,6 +440,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "35 min",
 		rating: 4.5,
+		isPublic: false,
 		categoryId: "cat-02",
 		ingredients: [
 			"1 xícara de lentilhas (vermelha ou marrom)",
@@ -447,6 +465,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "15 min",
 		rating: 4.4,
+		isPublic: false,
 		categoryId: "cat-03",
 		ingredients: [
 			"Folhas grandes de acelga",
@@ -471,6 +490,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "15 min",
 		rating: 4.8,
+		isPublic: false,
 		categoryId: "cat-06",
 		ingredients: [
 			"1 lata de milho",
@@ -494,6 +514,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "45 min",
 		rating: 4.7,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"1 xícara de quinoa",
@@ -517,6 +538,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "20 min",
 		rating: 4.6,
+		isPublic: false,
 		categoryId: "cat-01",
 		ingredients: [
 			"300g de massa (seu tipo favorito)",
@@ -540,6 +562,7 @@ export const recipes = [
 		difficulty: "Médio",
 		time: "20 min",
 		rating: 4.9,
+		isPublic: false,
 		categoryId: "cat-06",
 		ingredients: [
 			"200g de salmão fresco sem pele e espinhas",
@@ -563,6 +586,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "30 min",
 		rating: 4.7,
+		isPublic: false,
 		categoryId: "cat-06",
 		ingredients: [
 			"6 ovos",
@@ -586,6 +610,7 @@ export const recipes = [
 		difficulty: "Médio",
 		time: "1h",
 		rating: 4.8,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"1 lata de feijão-fradinho",
@@ -610,6 +635,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "50 min",
 		rating: 4.8,
+		isPublic: false,
 		categoryId: "cat-02",
 		ingredients: [
 			"1 lata de grão-de-bico",
@@ -633,6 +659,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "20 min",
 		rating: 4.7,
+		isPublic: false,
 		categoryId: "cat-03",
 		ingredients: [
 			"1 xícara de quinoa cozida",
@@ -656,6 +683,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "45 min",
 		rating: 4.9,
+		isPublic: false,
 		categoryId: "cat-02",
 		ingredients: [
 			"500g de batatas",
@@ -679,6 +707,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "15 min",
 		rating: 4.6,
+		isPublic: false,
 		categoryId: "cat-03",
 		ingredients: [
 			"1 xícara de cuscuz marroquino",
@@ -703,6 +732,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "1h 30 min",
 		rating: 4.8,
+		isPublic: false,
 		categoryId: "cat-02",
 		ingredients: [
 			"500g de carne em cubos (músculo, acém)",
@@ -727,6 +757,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "25 min",
 		rating: 4.5,
+		isPublic: false,
 		categoryId: "cat-05",
 		ingredients: [
 			"2 xícaras de arroz cozido (de preferência, do dia anterior)",
@@ -751,6 +782,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "15 min",
 		rating: 4.6,
+		isPublic: false,
 		categoryId: "cat-03",
 		ingredients: [
 			"Mix de folhas verdes",
@@ -774,6 +806,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "25 min",
 		rating: 4.8,
+		isPublic: false,
 		categoryId: "cat-05",
 		ingredients: [
 			"1 maço de brócolis ninja",
@@ -797,6 +830,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "10 min",
 		rating: 4.7,
+		isPublic: false,
 		categoryId: "cat-06",
 		ingredients: [
 			"1 lata de grão-de-bico",
@@ -820,6 +854,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "30 min",
 		rating: 4.6,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"1 peito de frango em cubos",
@@ -843,6 +878,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "20 min",
 		rating: 4.7,
+		isPublic: false,
 		categoryId: "cat-03",
 		ingredients: [
 			"200g de ervilha-torta",
@@ -866,6 +902,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "10 min",
 		rating: 4.5,
+		isPublic: false,
 		categoryId: "cat-05",
 		ingredients: [
 			"2 xícaras de folhas de couve (sem os talos)",
@@ -888,6 +925,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "30 min",
 		rating: 4.8,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"4 filés de peixe branco (tilápia, linguado)",
@@ -912,6 +950,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "15 min",
 		rating: 4.6,
+		isPublic: false,
 		categoryId: "cat-03",
 		ingredients: [
 			"Folhas de espinafre baby",
@@ -935,6 +974,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "35 min",
 		rating: 4.9,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"2 postas de salmão",
@@ -958,6 +998,7 @@ export const recipes = [
 		difficulty: "Médio",
 		time: "50 min",
 		rating: 4.8,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"4 lombos de bacalhau dessalgado",
@@ -981,6 +1022,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "5 min",
 		rating: 4.5,
+		isPublic: false,
 		categoryId: "cat-06",
 		ingredients: [
 			"1 xícara de iogurte grego ou cream cheese",
@@ -1003,6 +1045,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "25 min",
 		rating: 4.9,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"2 postas de salmão",
@@ -1027,6 +1070,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "40 min",
 		rating: 4.7,
+		isPublic: false,
 		categoryId: "cat-02",
 		ingredients: [
 			"1 abóbora butternut pequena",
@@ -1051,6 +1095,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "50 min",
 		rating: 4.6,
+		isPublic: false,
 		categoryId: "cat-03",
 		ingredients: [
 			"1 xícara de amaranto",
@@ -1074,6 +1119,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "15 min",
 		rating: 4.5,
+		isPublic: false,
 		categoryId: "cat-03",
 		ingredients: [
 			"2 cenouras raladas",
@@ -1097,6 +1143,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "20 min",
 		rating: 4.8,
+		isPublic: false,
 		categoryId: "cat-05",
 		ingredients: ["1 xícara de quinoa", "1 1/4 xícara de água ou caldo", "Sal"],
 		instructions: [
@@ -1114,6 +1161,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "40 min",
 		rating: 4.7,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"1 couve-flor em floretes",
@@ -1136,6 +1184,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "50 min",
 		rating: 4.8,
+		isPublic: false,
 		categoryId: "cat-02",
 		ingredients: [
 			"2 latas de feijão preto",
@@ -1159,6 +1208,7 @@ export const recipes = [
 		difficulty: "Médio",
 		time: "1h",
 		rating: 4.7,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"4 pimentões grandes",
@@ -1182,6 +1232,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "30 min",
 		rating: 4.6,
+		isPublic: false,
 		categoryId: "cat-06",
 		ingredients: [
 			"12 cogumelos Paris grandes",
@@ -1204,6 +1255,7 @@ export const recipes = [
 		difficulty: "Médio",
 		time: "3h",
 		rating: 4.9,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"1kg de costelinha de boi",
@@ -1228,6 +1280,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "45 min",
 		rating: 4.8,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"2 filés de frango",
@@ -1252,6 +1305,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "30 min (+ tempo de marinada)",
 		rating: 4.7,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"500g de peito de frango em cubos",
@@ -1274,6 +1328,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "15 min",
 		rating: 4.6,
+		isPublic: false,
 		categoryId: "cat-03",
 		ingredients: [
 			"200g de carne de siri desfiada",
@@ -1297,6 +1352,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "40 min",
 		rating: 4.7,
+		isPublic: false,
 		categoryId: "cat-05",
 		ingredients: [
 			"Mix de legumes (cenoura, batata, abobrinha, brócolis)",
@@ -1319,6 +1375,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "10 min (+ tempo de geladeira)",
 		rating: 4.6,
+		isPublic: false,
 		categoryId: "cat-02",
 		ingredients: [
 			"1 pepino grande",
@@ -1342,6 +1399,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "20 min",
 		rating: 4.7,
+		isPublic: false,
 		categoryId: "cat-03",
 		ingredients: [
 			"2 xícaras de frango cozido e desfiado",
@@ -1365,6 +1423,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "30 min",
 		rating: 4.8,
+		isPublic: false,
 		categoryId: "cat-02",
 		ingredients: [
 			"1 abóbora butternut pequena descascada e picada",
@@ -1388,6 +1447,7 @@ export const recipes = [
 		difficulty: "Médio",
 		time: "1h 30 min",
 		rating: 4.9,
+		isPublic: false,
 		categoryId: "cat-08",
 		ingredients: [
 			"Farinha de trigo",
@@ -1414,6 +1474,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "1h",
 		rating: 4.8,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"2 batatas-doces grandes",
@@ -1437,6 +1498,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "25 min",
 		rating: 4.6,
+		isPublic: false,
 		categoryId: "cat-03",
 		ingredients: [
 			"1 xícara de lentilhas cozidas",
@@ -1460,6 +1522,7 @@ export const recipes = [
 		difficulty: "Médio",
 		time: "40 min",
 		rating: 4.7,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"1 xícara de feijão Mung (moyashi)",
@@ -1483,6 +1546,7 @@ export const recipes = [
 		difficulty: "Médio",
 		time: "50 min",
 		rating: 4.7,
+		isPublic: false,
 		categoryId: "cat-01",
 		ingredients: [
 			"300g de tagliatelle fresco (ou de manjericão)",
@@ -1507,6 +1571,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "5 min",
 		rating: 4.8,
+		isPublic: false,
 		categoryId: "cat-07",
 		ingredients: [
 			"1 banana congelada",
@@ -1529,6 +1594,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "1h",
 		rating: 4.9,
+		isPublic: false,
 		categoryId: "cat-02",
 		ingredients: [
 			"1 xícara de lentilhas marrons ou verdes",
@@ -1553,6 +1619,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "25 min",
 		rating: 4.8,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"4 filés de salmão",
@@ -1577,6 +1644,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "20 min",
 		rating: 4.7,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"4 filés de halibute (ou outro peixe branco firme)",
@@ -1600,6 +1668,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "15 min",
 		rating: 4.4,
+		isPublic: false,
 		categoryId: "cat-06",
 		ingredients: [
 			"1 cabeça de brócolis (somente os floretes)",
@@ -1622,6 +1691,7 @@ export const recipes = [
 		difficulty: "Médio",
 		time: "1h",
 		rating: 4.9,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"1 bife de flanco grande e fino",
@@ -1644,6 +1714,7 @@ export const recipes = [
 		difficulty: "Médio",
 		time: "1h 15 min",
 		rating: 4.7,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"500g de cogumelos variados",
@@ -1667,6 +1738,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "4h",
 		rating: 4.8,
+		isPublic: false,
 		categoryId: "cat-02",
 		ingredients: [
 			"2 peitos de frango",
@@ -1690,6 +1762,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "30 min",
 		rating: 4.9,
+		isPublic: false,
 		categoryId: "cat-02",
 		ingredients: [
 			"1 cabeça de brócolis",
@@ -1713,6 +1786,7 @@ export const recipes = [
 		difficulty: "Difícil",
 		time: "4h",
 		rating: 4.7,
+		isPublic: false,
 		categoryId: "cat-08",
 		ingredients: [
 			"Farinha de trigo integral",
@@ -1735,6 +1809,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "15 min",
 		rating: 4.6,
+		isPublic: false,
 		categoryId: "cat-05",
 		ingredients: [
 			"1 maço de brócolis",
@@ -1758,6 +1833,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "20 min",
 		rating: 4.8,
+		isPublic: false,
 		categoryId: "cat-03",
 		ingredients: [
 			"300g de camarão cozido",
@@ -1780,6 +1856,7 @@ export const recipes = [
 		difficulty: "Difícil",
 		time: "1h",
 		rating: 4.8,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"Farinha de arroz e cúrcuma (para a massa)",
@@ -1803,6 +1880,7 @@ export const recipes = [
 		difficulty: "Médio",
 		time: "35 min",
 		rating: 4.7,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"1 xícara de quinoa",
@@ -1827,6 +1905,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "25 min",
 		rating: 4.6,
+		isPublic: false,
 		categoryId: "cat-03",
 		ingredients: [
 			"Frango desfiado",
@@ -1850,6 +1929,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "40 min",
 		rating: 4.8,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"500g de carne em tiras (alcatra, contra-filé)",
@@ -1874,6 +1954,7 @@ export const recipes = [
 		difficulty: "Médio",
 		time: "2h 30 min",
 		rating: 4.7,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"1kg de carne de veado em cubos",
@@ -1898,6 +1979,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "20 min",
 		rating: 4.6,
+		isPublic: false,
 		categoryId: "cat-03",
 		ingredients: [
 			"1 xícara de quinoa cozida",
@@ -1922,6 +2004,7 @@ export const recipes = [
 		difficulty: "Médio",
 		time: "30 min",
 		rating: 4.8,
+		isPublic: false,
 		categoryId: "cat-03",
 		ingredients: [
 			"200g de salmão grelhado ou defumado",
@@ -1945,6 +2028,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "1h",
 		rating: 4.7,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"4 pimentões coloridos",
@@ -1968,6 +2052,7 @@ export const recipes = [
 		difficulty: "Médio",
 		time: "1h 30 min",
 		rating: 4.9,
+		isPublic: false,
 		categoryId: "cat-05",
 		ingredients: [
 			"2 batatas-doces grandes",
@@ -1991,6 +2076,7 @@ export const recipes = [
 		difficulty: "Médio",
 		time: "45 min",
 		rating: 4.7,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"2 xícaras de arroz",
@@ -2014,6 +2100,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "10 min",
 		rating: 4.6,
+		isPublic: false,
 		categoryId: "cat-05",
 		ingredients: [
 			"4 maços de baby bok choy",
@@ -2037,6 +2124,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "15 min",
 		rating: 4.5,
+		isPublic: false,
 		categoryId: "cat-03",
 		ingredients: [
 			"1/2 maço de couve fatiada fina",
@@ -2060,6 +2148,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "30 min",
 		rating: 4.7,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"Frango cozido e desfiado",
@@ -2082,6 +2171,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "50 min",
 		rating: 4.8,
+		isPublic: false,
 		categoryId: "cat-01",
 		ingredients: [
 			"500g de penne",
@@ -2105,6 +2195,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "20 min",
 		rating: 4.7,
+		isPublic: false,
 		categoryId: "cat-01",
 		ingredients: [
 			"400g de penne",
@@ -2129,6 +2220,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "45 min",
 		rating: 4.6,
+		isPublic: false,
 		categoryId: "cat-02",
 		ingredients: [
 			"1 xícara de lentilhas vermelhas",
@@ -2152,6 +2244,7 @@ export const recipes = [
 		difficulty: "Médio",
 		time: "40 min",
 		rating: 4.9,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"1 peça de fraldinha (skirt steak)",
@@ -2175,6 +2268,7 @@ export const recipes = [
 		difficulty: "Médio",
 		time: "25 min",
 		rating: 4.7,
+		isPublic: false,
 		categoryId: "cat-01",
 		ingredients: [
 			"250g de capellini (cabelo de anjo)",
@@ -2198,6 +2292,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "50 min",
 		rating: 4.8,
+		isPublic: false,
 		categoryId: "cat-02",
 		ingredients: [
 			"1/2 xícara de lentilhas",
@@ -2221,6 +2316,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "15 min",
 		rating: 4.6,
+		isPublic: false,
 		categoryId: "cat-05",
 		ingredients: [
 			"1 cabeça de couve-flor",
@@ -2244,6 +2340,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "20 min",
 		rating: 4.7,
+		isPublic: false,
 		categoryId: "cat-06",
 		ingredients: [
 			"500g de espinafre fresco",
@@ -2266,6 +2363,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "15 min",
 		rating: 4.5,
+		isPublic: false,
 		categoryId: "cat-05",
 		ingredients: [
 			"1 xícara de quinoa cozida",
@@ -2288,6 +2386,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "20 min",
 		rating: 4.8,
+		isPublic: false,
 		categoryId: "cat-03",
 		ingredients: [
 			"1/2 xícara de trigo para quibe",
@@ -2311,6 +2410,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "20 min",
 		rating: 4.6,
+		isPublic: false,
 		categoryId: "cat-03",
 		ingredients: [
 			"Mix de folhas de inverno (radicchio, escarola)",
@@ -2334,6 +2434,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "45 min",
 		rating: 4.7,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"1 couve-flor em floretes",
@@ -2358,6 +2459,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "1h 15 min",
 		rating: 4.8,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"2 batatas-doces grandes",
@@ -2381,6 +2483,7 @@ export const recipes = [
 		difficulty: "Difícil",
 		time: "1h (+ tempo de fermentação)",
 		rating: 4.7,
+		isPublic: false,
 		categoryId: "cat-05",
 		ingredients: [
 			"1 acelga grande",
@@ -2403,6 +2506,7 @@ export const recipes = [
 		difficulty: "Médio",
 		time: "40 min (+ marinada)",
 		rating: 4.8,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"500g de filé de frango",
@@ -2425,6 +2529,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "15 min",
 		rating: 4.5,
+		isPublic: false,
 		categoryId: "cat-01",
 		ingredients: [
 			"300g de macarrão (espaguete ou penne)",
@@ -2449,6 +2554,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "25 min",
 		rating: 4.6,
+		isPublic: false,
 		categoryId: "cat-05",
 		ingredients: [
 			"2 xícaras de arroz cozido (do dia anterior)",
@@ -2472,6 +2578,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "30 min",
 		rating: 4.5,
+		isPublic: false,
 		categoryId: "cat-03",
 		ingredients: [
 			"500g de batatas pequenas",
@@ -2495,6 +2602,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "40 min",
 		rating: 4.7,
+		isPublic: false,
 		categoryId: "cat-02",
 		ingredients: [
 			"4 batatas grandes",
@@ -2518,6 +2626,7 @@ export const recipes = [
 		difficulty: "Médio",
 		time: "25 min",
 		rating: 4.8,
+		isPublic: false,
 		categoryId: "cat-06",
 		ingredients: [
 			"Carne de siri desfiada",
@@ -2540,6 +2649,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "45 min",
 		rating: 4.6,
+		isPublic: false,
 		categoryId: "cat-03",
 		ingredients: [
 			"200g de tofu firme",
@@ -2564,6 +2674,7 @@ export const recipes = [
 		difficulty: "Médio",
 		time: "1h 30 min",
 		rating: 4.7,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"1 abóbora tipo 'acorn' ou moranga",
@@ -2587,6 +2698,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "1h 30 min",
 		rating: 4.8,
+		isPublic: false,
 		categoryId: "cat-02",
 		ingredients: [
 			"Carne para ensopado",
@@ -2610,6 +2722,7 @@ export const recipes = [
 		difficulty: "Médio",
 		time: "1h",
 		rating: 4.6,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"2 alcachofras grandes",
@@ -2634,6 +2747,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "20 min",
 		rating: 4.7,
+		isPublic: false,
 		categoryId: "cat-05",
 		ingredients: ["1 maço de couve", "Azeite de oliva", "Alho em pó", "Sal"],
 		instructions: [
@@ -2651,6 +2765,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "30 min",
 		rating: 4.8,
+		isPublic: false,
 		categoryId: "cat-02",
 		ingredients: [
 			"2 peitos de frango",
@@ -2673,6 +2788,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "25 min",
 		rating: 4.6,
+		isPublic: false,
 		categoryId: "cat-02",
 		ingredients: [
 			"1 xícara de ervilhas congeladas",
@@ -2696,6 +2812,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "15 min",
 		rating: 4.5,
+		isPublic: false,
 		categoryId: "cat-05",
 		ingredients: [
 			"1 xícara de cuscuz marroquino",
@@ -2718,6 +2835,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "30 min",
 		rating: 4.7,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"1 lata de grão-de-bico",
@@ -2740,6 +2858,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "35 min",
 		rating: 4.9,
+		isPublic: false,
 		categoryId: "cat-02",
 		ingredients: [
 			"1 cabeça de brócolis",
@@ -2763,6 +2882,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "20 min",
 		rating: 4.6,
+		isPublic: false,
 		categoryId: "cat-01",
 		ingredients: [
 			"400g de massa (penne ou espaguete)",
@@ -2786,6 +2906,7 @@ export const recipes = [
 		difficulty: "Médio",
 		time: "30 min",
 		rating: 4.8,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"4 filés de halibute (ou outro peixe branco)",
@@ -2809,6 +2930,7 @@ export const recipes = [
 		difficulty: "Médio",
 		time: "1h 20 min",
 		rating: 4.7,
+		isPublic: false,
 		categoryId: "cat-05",
 		ingredients: [
 			"1 berinjela",
@@ -2832,6 +2954,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "30 min",
 		rating: 4.6,
+		isPublic: false,
 		categoryId: "cat-05",
 		ingredients: [
 			"1 cabeça de couve-flor",
@@ -2855,6 +2978,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "1h",
 		rating: 4.8,
+		isPublic: false,
 		categoryId: "cat-01",
 		ingredients: [
 			"500g de rigatoni",
@@ -2877,6 +3001,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "20 min",
 		rating: 4.7,
+		isPublic: false,
 		categoryId: "cat-03",
 		ingredients: [
 			"1 xícara de cuscuz pérola",
@@ -2900,6 +3025,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "15 min",
 		rating: 4.6,
+		isPublic: false,
 		categoryId: "cat-06",
 		ingredients: [
 			"1 lata de feijão preto",
@@ -2923,6 +3049,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "10 min",
 		rating: 4.4,
+		isPublic: false,
 		categoryId: "cat-03",
 		ingredients: [
 			"3 tomates verdes grandes",
@@ -2945,6 +3072,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "45 min",
 		rating: 4.8,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"4 coxas e sobrecoxas de frango",
@@ -2968,6 +3096,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "35 min",
 		rating: 4.6,
+		isPublic: false,
 		categoryId: "cat-03",
 		ingredients: [
 			"1 xícara de farro",
@@ -2991,6 +3120,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "20 min",
 		rating: 4.7,
+		isPublic: false,
 		categoryId: "cat-01",
 		ingredients: [
 			"2 abobrinhas grandes",
@@ -3015,6 +3145,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "50 min",
 		rating: 4.6,
+		isPublic: false,
 		categoryId: "cat-02",
 		ingredients: [
 			"1 xícara de lentilhas",
@@ -3039,6 +3170,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "30 min",
 		rating: 4.7,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"1 xícara de quinoa",
@@ -3062,6 +3194,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "45 min",
 		rating: 4.8,
+		isPublic: false,
 		categoryId: "cat-05",
 		ingredients: [
 			"Mix de legumes (batata, cenoura, abobrinha, brócolis)",
@@ -3083,6 +3216,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "10 min",
 		rating: 4.6,
+		isPublic: false,
 		categoryId: "cat-03",
 		ingredients: [
 			"1 lata de feijão cannellini (ou feijão branco)",
@@ -3106,6 +3240,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "20 min",
 		rating: 4.7,
+		isPublic: false,
 		categoryId: "cat-03",
 		ingredients: [
 			"1 xícara de quinoa cozida",
@@ -3128,6 +3263,7 @@ export const recipes = [
 		difficulty: "Médio",
 		time: "8h",
 		rating: 4.9,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"1kg de pernil de cordeiro em cubos",
@@ -3151,6 +3287,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "20 min",
 		rating: 4.7,
+		isPublic: false,
 		categoryId: "cat-03",
 		ingredients: [
 			"1 xícara de quinoa cozida",
@@ -3174,6 +3311,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "30 min",
 		rating: 4.6,
+		isPublic: false,
 		categoryId: "cat-02",
 		ingredients: [
 			"1 maço de aspargos",
@@ -3196,6 +3334,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "15 min",
 		rating: 4.4,
+		isPublic: false,
 		categoryId: "cat-03",
 		ingredients: [
 			"1 abobrinha grande ralada",
@@ -3219,6 +3358,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "25 min",
 		rating: 4.5,
+		isPublic: false,
 		categoryId: "cat-03",
 		ingredients: [
 			"1 cabeça de couve-flor",
@@ -3243,6 +3383,7 @@ export const recipes = [
 		difficulty: "Difícil",
 		time: "40 min",
 		rating: 4.9,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"Ovos",
@@ -3266,6 +3407,7 @@ export const recipes = [
 		difficulty: "Médio",
 		time: "2h",
 		rating: 4.7,
+		isPublic: false,
 		categoryId: "cat-02",
 		ingredients: [
 			"Carne de cordeiro ou boi em cubos",
@@ -3289,6 +3431,7 @@ export const recipes = [
 		difficulty: "Médio",
 		time: "35 min",
 		rating: 4.8,
+		isPublic: false,
 		categoryId: "cat-01",
 		ingredients: [
 			"400g de espaguete ou linguine",
@@ -3313,6 +3456,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "15 min (com beterraba já cozida)",
 		rating: 4.4,
+		isPublic: false,
 		categoryId: "cat-03",
 		ingredients: [
 			"2 beterrabas cozidas e em cubos",
@@ -3334,6 +3478,7 @@ export const recipes = [
 		difficulty: "Difícil",
 		time: "1h",
 		rating: 4.8,
+		isPublic: false,
 		categoryId: "cat-01",
 		ingredients: [
 			"Macarrão de batata-doce (dangmyeon)",
@@ -3356,6 +3501,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "40 min",
 		rating: 4.7,
+		isPublic: false,
 		categoryId: "cat-02",
 		ingredients: [
 			"2 latas de feijão preto",
@@ -3379,6 +3525,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "25 min",
 		rating: 4.8,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"1 filé grande de salmão com pele",
@@ -3401,6 +3548,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "1h 30 min",
 		rating: 4.5,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"1/2 xícara de arroz integral",
@@ -3423,6 +3571,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "15 min",
 		rating: 4.4,
+		isPublic: false,
 		categoryId: "cat-03",
 		ingredients: [
 			"1 xícara de quinoa cozida",
@@ -3445,6 +3594,7 @@ export const recipes = [
 		difficulty: "Médio",
 		time: "40 min",
 		rating: 4.7,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"1 lata de grão-de-bico",
@@ -3467,6 +3617,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "45 min",
 		rating: 4.8,
+		isPublic: false,
 		categoryId: "cat-02",
 		ingredients: [
 			"Abóbora em cubos",
@@ -3490,6 +3641,7 @@ export const recipes = [
 		difficulty: "Médio",
 		time: "25 min",
 		rating: 4.9,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"1kg de mexilhões frescos",
@@ -3513,6 +3665,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "20 min",
 		rating: 4.7,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"4 filés de salmão",
@@ -3536,6 +3689,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "15 min",
 		rating: 4.6,
+		isPublic: false,
 		categoryId: "cat-03",
 		ingredients: [
 			"Repolho verde e roxo fatiado",
@@ -3558,6 +3712,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "15 min",
 		rating: 4.5,
+		isPublic: false,
 		categoryId: "cat-02",
 		ingredients: [
 			"Pasta de miso",
@@ -3582,6 +3737,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "25 min",
 		rating: 4.6,
+		isPublic: false,
 		categoryId: "cat-01",
 		ingredients: [
 			"400g de espaguete",
@@ -3605,6 +3761,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "40 min",
 		rating: 4.7,
+		isPublic: false,
 		categoryId: "cat-03",
 		ingredients: [
 			"1 xícara de quinoa vermelha",
@@ -3628,6 +3785,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "6h",
 		rating: 4.8,
+		isPublic: false,
 		categoryId: "cat-02",
 		ingredients: [
 			"2 peitos de frango",
@@ -3651,6 +3809,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "30 min",
 		rating: 4.6,
+		isPublic: false,
 		categoryId: "cat-03",
 		ingredients: [
 			"1 xícara de trigo em grão cozido",
@@ -3673,6 +3832,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "15 min",
 		rating: 4.5,
+		isPublic: false,
 		categoryId: "cat-01",
 		ingredients: [
 			"400g de massa",
@@ -3696,6 +3856,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "20 min",
 		rating: 4.3,
+		isPublic: false,
 		categoryId: "cat-03",
 		ingredients: [
 			"300g de quiabo fresco",
@@ -3718,6 +3879,7 @@ export const recipes = [
 		difficulty: "Médio",
 		time: "25 min",
 		rating: 4.5,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"2 filés de salmão sockeye",
@@ -3740,6 +3902,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "35 min",
 		rating: 4.8,
+		isPublic: false,
 		categoryId: "cat-03",
 		ingredients: [
 			"1 peito de frango grelhado e fatiado",
@@ -3763,6 +3926,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "10 min",
 		rating: 4.9,
+		isPublic: false,
 		categoryId: "cat-07",
 		ingredients: [
 			"1/2 xícara de aveia em flocos",
@@ -3786,6 +3950,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "25 min",
 		rating: 4.7,
+		isPublic: false,
 		categoryId: "cat-03",
 		ingredients: [
 			"1 xícara de quinoa cozida",
@@ -3809,6 +3974,7 @@ export const recipes = [
 		difficulty: "Médio",
 		time: "40 min",
 		rating: 4.8,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"2 filés de salmão",
@@ -3831,6 +3997,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "1h",
 		rating: 4.6,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"3 pimentões coloridos",
@@ -3853,6 +4020,7 @@ export const recipes = [
 		difficulty: "Médio",
 		time: "50 min",
 		rating: 4.7,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"4 pedaços de frango",
@@ -3875,6 +4043,7 @@ export const recipes = [
 		difficulty: "Difícil",
 		time: "45 min",
 		rating: 4.9,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"4 filés de salmão",
@@ -3897,6 +4066,7 @@ export const recipes = [
 		difficulty: "Médio",
 		time: "1h 30 min",
 		rating: 4.8,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"1 peça de lombo de porco",
@@ -3919,6 +4089,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "1h 20 min",
 		rating: 4.7,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"2 batatas grandes para assar",
@@ -3942,6 +4113,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "20 min",
 		rating: 4.6,
+		isPublic: false,
 		categoryId: "cat-06",
 		ingredients: [
 			"Pão italiano em fatias",
@@ -3965,6 +4137,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "20 min",
 		rating: 4.7,
+		isPublic: false,
 		categoryId: "cat-03",
 		ingredients: [
 			"Couve kale rasgada",
@@ -3988,6 +4161,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "30 min",
 		rating: 4.8,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"1kg de mexilhões frescos",
@@ -4011,6 +4185,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "25 min",
 		rating: 4.7,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"4 filés de salmão",
@@ -4034,6 +4209,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "30 min",
 		rating: 4.9,
+		isPublic: false,
 		categoryId: "cat-01",
 		ingredients: [
 			"400g de rigatoni",
@@ -4057,6 +4233,7 @@ export const recipes = [
 		difficulty: "Médio",
 		time: "25 min",
 		rating: 4.7,
+		isPublic: false,
 		categoryId: "cat-01",
 		ingredients: [
 			"400g de fusilli",
@@ -4081,6 +4258,7 @@ export const recipes = [
 		difficulty: "Médio",
 		time: "25 min",
 		rating: 4.6,
+		isPublic: false,
 		categoryId: "cat-01",
 		ingredients: [
 			"400g de espaguete",
@@ -4105,6 +4283,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "1h",
 		rating: 4.7,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"4 pimentões",
@@ -4128,6 +4307,7 @@ export const recipes = [
 		difficulty: "Difícil",
 		time: "3h",
 		rating: 4.9,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"1 peça de paleta de porco",
@@ -4152,6 +4332,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "15 min",
 		rating: 4.4,
+		isPublic: false,
 		categoryId: "cat-03",
 		ingredients: [
 			"1 bulbo de erva-doce fatiado finamente",
@@ -4173,6 +4354,7 @@ export const recipes = [
 		difficulty: "Difícil",
 		time: "3h",
 		rating: 4.8,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"Carne de porco (paleta)",
@@ -4196,6 +4378,7 @@ export const recipes = [
 		difficulty: "Médio",
 		time: "1h 30 min",
 		rating: 4.9,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"1 peça de carne para assado (acém, peito)",
@@ -4220,6 +4403,7 @@ export const recipes = [
 		difficulty: "Médio",
 		time: "1h",
 		rating: 4.9,
+		isPublic: false,
 		categoryId: "cat-02",
 		ingredients: [
 			"1kg de pernil de cordeiro em cubos",
@@ -4243,6 +4427,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "45 min",
 		rating: 4.7,
+		isPublic: false,
 		categoryId: "cat-02",
 		ingredients: [
 			"1 xícara de lentilhas",
@@ -4266,6 +4451,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "30 min",
 		rating: 4.8,
+		isPublic: false,
 		categoryId: "cat-03",
 		ingredients: [
 			"2 filés de salmão",
@@ -4289,6 +4475,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "15 min",
 		rating: 4.9,
+		isPublic: false,
 		categoryId: "cat-06",
 		ingredients: [
 			"Fatias de pão italiano",
@@ -4313,6 +4500,7 @@ export const recipes = [
 		difficulty: "Médio",
 		time: "30 min",
 		rating: 4.7,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"2 filés de salmão grossos",
@@ -4336,6 +4524,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "5 min (+ tempo de geladeira)",
 		rating: 4.6,
+		isPublic: false,
 		categoryId: "cat-07",
 		ingredients: [
 			"3 colheres de sopa de sementes de chia",
@@ -4359,6 +4548,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "25 min",
 		rating: 4.8,
+		isPublic: false,
 		categoryId: "cat-03",
 		ingredients: [
 			"2 filés de salmão",
@@ -4382,6 +4572,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "40 min",
 		rating: 4.7,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"Macarrão curto cozido",
@@ -4405,6 +4596,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "30 min",
 		rating: 4.5,
+		isPublic: false,
 		categoryId: "cat-02",
 		ingredients: [
 			"2 cabeças de brócolis",
@@ -4427,6 +4619,7 @@ export const recipes = [
 		difficulty: "Médio",
 		time: "40 min",
 		rating: 4.7,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"Couve-flor para o arroz",
@@ -4448,6 +4641,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "20 min",
 		rating: 4.6,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"500g de carne de veado moída",
@@ -4471,6 +4665,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "20 min",
 		rating: 4.8,
+		isPublic: false,
 		categoryId: "cat-01",
 		ingredients: [
 			"400g de espaguete integral",
@@ -4493,6 +4688,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "40 min",
 		rating: 4.6,
+		isPublic: false,
 		categoryId: "cat-03",
 		ingredients: [
 			"1 cabeça de couve-flor",
@@ -4515,6 +4711,7 @@ export const recipes = [
 		difficulty: "Médio",
 		time: "35 min",
 		rating: 4.5,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"2 bananas-da-terra maduras",
@@ -4537,6 +4734,7 @@ export const recipes = [
 		difficulty: "Médio",
 		time: "3h",
 		rating: 4.8,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"1 peça de corned beef",
@@ -4559,6 +4757,7 @@ export const recipes = [
 		difficulty: "Difícil",
 		time: "50 min",
 		rating: 4.9,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"Bolinhos de siri (crab cakes)",
@@ -4580,6 +4779,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "45 min",
 		rating: 4.7,
+		isPublic: false,
 		categoryId: "cat-02",
 		ingredients: [
 			"1 xícara de lentilhas vermelhas",
@@ -4603,6 +4803,7 @@ export const recipes = [
 		difficulty: "Médio",
 		time: "30 min",
 		rating: 4.8,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"2 peitos de frango finos",
@@ -4626,6 +4827,7 @@ export const recipes = [
 		difficulty: "Médio",
 		time: "1h",
 		rating: 4.7,
+		isPublic: false,
 		categoryId: "cat-01",
 		ingredients: [
 			"Massa de lasanha",
@@ -4648,6 +4850,7 @@ export const recipes = [
 		difficulty: "Médio",
 		time: "30 min (+ tempo de congelamento)",
 		rating: 4.9,
+		isPublic: false,
 		categoryId: "cat-08",
 		ingredients: [
 			"Base de sorvete de chocolate (leite, creme, cacau, açúcar)",
@@ -4670,6 +4873,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "10 min",
 		rating: 4.8,
+		isPublic: false,
 		categoryId: "cat-03",
 		ingredients: [
 			"Tomate, pepino, cebola roxa",
@@ -4692,6 +4896,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "40 min",
 		rating: 4.6,
+		isPublic: false,
 		categoryId: "cat-05",
 		ingredients: [
 			"1 xícara de lentilhas",
@@ -4715,6 +4920,7 @@ export const recipes = [
 		difficulty: "Médio",
 		time: "1h",
 		rating: 4.9,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"1 peça de lombo de porco",
@@ -4737,6 +4943,7 @@ export const recipes = [
 		difficulty: "Médio",
 		time: "3h",
 		rating: 4.7,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"1 peça de corned beef (carne curada)",
@@ -4759,6 +4966,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "1h",
 		rating: 4.8,
+		isPublic: false,
 		categoryId: "cat-02",
 		ingredients: [
 			"Mix de legumes (cenoura, aipo, abobrinha, vagem)",
@@ -4782,6 +4990,7 @@ export const recipes = [
 		difficulty: "Difícil",
 		time: "2h",
 		rating: 4.9,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"2 berinjelas grandes",
@@ -4804,6 +5013,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "35 min",
 		rating: 4.6,
+		isPublic: false,
 		categoryId: "cat-06",
 		ingredients: [
 			"12 cogumelos grandes",
@@ -4826,6 +5036,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "40 min",
 		rating: 4.7,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"Feijão preto cozido e temperado",
@@ -4848,6 +5059,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "20 min",
 		rating: 4.5,
+		isPublic: false,
 		categoryId: "cat-03",
 		ingredients: [
 			"1 xícara de quinoa cozida",
@@ -4870,6 +5082,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "30 min",
 		rating: 4.8,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"2 filés de salmão",
@@ -4892,6 +5105,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "25 min",
 		rating: 4.6,
+		isPublic: false,
 		categoryId: "cat-01",
 		ingredients: [
 			"500g de cavatelli",
@@ -4915,6 +5129,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "20 min",
 		rating: 4.8,
+		isPublic: false,
 		categoryId: "cat-05",
 		ingredients: [
 			"1 maço de aspargos",
@@ -4937,6 +5152,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "25 min",
 		rating: 4.7,
+		isPublic: false,
 		categoryId: "cat-05",
 		ingredients: [
 			"1 cabeça de brócolis",
@@ -4959,6 +5175,7 @@ export const recipes = [
 		difficulty: "Médio",
 		time: "30 min",
 		rating: 4.6,
+		isPublic: false,
 		categoryId: "cat-05",
 		ingredients: [
 			"1 cabeça de brócolis",
@@ -4981,6 +5198,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "15 min",
 		rating: 4.8,
+		isPublic: false,
 		categoryId: "cat-06",
 		ingredients: [
 			"1 manga madura mas firme, em cubos",
@@ -5004,6 +5222,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "8h",
 		rating: 4.9,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"1 peça de corned beef",
@@ -5025,6 +5244,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "45 min",
 		rating: 4.6,
+		isPublic: false,
 		categoryId: "cat-03",
 		ingredients: [
 			"Abóbora butternut em cubos",
@@ -5049,6 +5269,7 @@ export const recipes = [
 		difficulty: "Difícil",
 		time: "1h 30 min",
 		rating: 4.8,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"1 lombo de porco aberto em manta",
@@ -5071,6 +5292,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "30 min",
 		rating: 4.5,
+		isPublic: false,
 		categoryId: "cat-02",
 		ingredients: [
 			"500g de cenouras",
@@ -5094,6 +5316,7 @@ export const recipes = [
 		difficulty: "Difícil",
 		time: "2h 30 min",
 		rating: 5.0,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"4 pedaços de osso buco de vitelo",
@@ -5116,6 +5339,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "15 min",
 		rating: 4.4,
+		isPublic: false,
 		categoryId: "cat-03",
 		ingredients: [
 			"Melancia em cubos",
@@ -5138,6 +5362,7 @@ export const recipes = [
 		difficulty: "Médio",
 		time: "2h",
 		rating: 4.9,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"1 pernil de cordeiro",
@@ -5160,6 +5385,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "1h 15 min",
 		rating: 4.7,
+		isPublic: false,
 		categoryId: "cat-02",
 		ingredients: [
 			"Batata-doce, pastinaca, cenoura",
@@ -5182,6 +5408,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "20 min",
 		rating: 4.6,
+		isPublic: false,
 		categoryId: "cat-03",
 		ingredients: [
 			"Quinoa vermelha cozida",
@@ -5203,6 +5430,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "2h",
 		rating: 4.8,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"Carne magra em cubos (patinho, alcatra)",
@@ -5224,6 +5452,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "20 min",
 		rating: 4.5,
+		isPublic: false,
 		categoryId: "cat-08",
 		ingredients: [
 			"Biscoitos OREO",
@@ -5245,6 +5474,7 @@ export const recipes = [
 		difficulty: "Médio",
 		time: "40 min",
 		rating: 4.8,
+		isPublic: false,
 		categoryId: "cat-06",
 		ingredients: [
 			"2 cebolas grandes",
@@ -5267,6 +5497,7 @@ export const recipes = [
 		difficulty: "Difícil",
 		time: "1h (+ tempo de fermentação)",
 		rating: 4.7,
+		isPublic: false,
 		categoryId: "cat-05",
 		ingredients: [
 			"1 acelga grande",
@@ -5291,6 +5522,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "20 min",
 		rating: 4.6,
+		isPublic: false,
 		categoryId: "cat-03",
 		ingredients: [
 			"Mix de folhas de primavera (alface, rúcula)",
@@ -5313,6 +5545,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "15 min",
 		rating: 4.7,
+		isPublic: false,
 		categoryId: "cat-03",
 		ingredients: [
 			"2 laranjas",
@@ -5335,6 +5568,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "10 min",
 		rating: 4.6,
+		isPublic: false,
 		categoryId: "cat-08",
 		ingredients: [
 			"Pão de forma",
@@ -5357,6 +5591,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "10 min",
 		rating: 4.8,
+		isPublic: false,
 		categoryId: "cat-07",
 		ingredients: [
 			"1 beterraba crua",
@@ -5378,6 +5613,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "20 min",
 		rating: 4.5,
+		isPublic: false,
 		categoryId: "cat-05",
 		ingredients: [
 			"1 maço de escarola",
@@ -5400,6 +5636,7 @@ export const recipes = [
 		difficulty: "Médio",
 		time: "30 min",
 		rating: 4.9,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"1 peça de fraldinha",
@@ -5421,6 +5658,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "45 min",
 		rating: 4.6,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"4 costeletas de porco",
@@ -5443,6 +5681,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "30 min",
 		rating: 4.7,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"1 bife de fraldinha",
@@ -5464,6 +5703,7 @@ export const recipes = [
 		difficulty: "Médio",
 		time: "1h 45 min",
 		rating: 4.7,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"Berinjela e batata em fatias",
@@ -5486,6 +5726,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "50 min",
 		rating: 4.5,
+		isPublic: false,
 		categoryId: "cat-02",
 		ingredients: [
 			"1 xícara de farro",
@@ -5508,6 +5749,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "50 min",
 		rating: 4.7,
+		isPublic: false,
 		categoryId: "cat-05",
 		ingredients: [
 			"Cenoura, pastinaca, batata-doce, couve de Bruxelas",
@@ -5529,6 +5771,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "1h",
 		rating: 4.6,
+		isPublic: false,
 		categoryId: "cat-02",
 		ingredients: [
 			"1 lata de feijão preto",
@@ -5551,6 +5794,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "25 min",
 		rating: 4.8,
+		isPublic: false,
 		categoryId: "cat-03",
 		ingredients: [
 			"2 bifes de contra-filé ou alcatra",
@@ -5573,6 +5817,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "20 min",
 		rating: 4.7,
+		isPublic: false,
 		categoryId: "cat-06",
 		ingredients: [
 			"1 lata de feijão-fradinho",
@@ -5595,6 +5840,7 @@ export const recipes = [
 		difficulty: "Médio",
 		time: "1h 30 min",
 		rating: 4.5,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"Farinhas sem glúten para a massa",
@@ -5616,6 +5862,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "15 min",
 		rating: 4.8,
+		isPublic: false,
 		categoryId: "cat-03",
 		ingredients: [
 			"2 xícaras de frango cozido e desfiado",
@@ -5638,6 +5885,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "10 min",
 		rating: 4.7,
+		isPublic: false,
 		categoryId: "cat-07",
 		ingredients: [
 			"1/2 xícara de aveia",
@@ -5659,6 +5907,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "20 min",
 		rating: 4.8,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"2 filés de salmão",
@@ -5681,6 +5930,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "25 min",
 		rating: 4.5,
+		isPublic: false,
 		categoryId: "cat-03",
 		ingredients: [
 			"1 xícara de lentilhas cozidas e frias",
@@ -5702,6 +5952,7 @@ export const recipes = [
 		difficulty: "Difícil",
 		time: "2h",
 		rating: 5.0,
+		isPublic: false,
 		categoryId: "cat-02",
 		ingredients: [
 			"Roux (manteiga e farinha)",
@@ -5725,6 +5976,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "30 min",
 		rating: 4.7,
+		isPublic: false,
 		categoryId: "cat-05",
 		ingredients: [
 			"500g de couve de Bruxelas",
@@ -5747,6 +5999,7 @@ export const recipes = [
 		difficulty: "Médio",
 		time: "3h",
 		rating: 4.8,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"1 peça de corned beef",
@@ -5769,6 +6022,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "20 min",
 		rating: 4.7,
+		isPublic: false,
 		categoryId: "cat-01",
 		ingredients: [
 			"400g de bigoli (ou espaguete grosso)",
@@ -5792,6 +6046,7 @@ export const recipes = [
 		difficulty: "Médio",
 		time: "15 min",
 		rating: 4.6,
+		isPublic: false,
 		categoryId: "cat-05",
 		ingredients: [
 			"1 maço de espinafre d'água (kangkung)",
@@ -5814,6 +6069,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "25 min",
 		rating: 4.8,
+		isPublic: false,
 		categoryId: "cat-03",
 		ingredients: [
 			"Quinoa vermelha cozida",
@@ -5837,6 +6093,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "10 min",
 		rating: 4.9,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: ["Filé de salmão com pele", "Sal e pimenta", "Óleo ou azeite"],
 		instructions: [
@@ -5855,6 +6112,7 @@ export const recipes = [
 		difficulty: "Médio",
 		time: "1h 30 min",
 		rating: 4.8,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"1 frango inteiro",
@@ -5877,6 +6135,7 @@ export const recipes = [
 		difficulty: "Médio",
 		time: "25 min",
 		rating: 4.6,
+		isPublic: false,
 		categoryId: "cat-01",
 		ingredients: [
 			"300g de cordeiro fatiado",
@@ -5898,6 +6157,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "15 min",
 		rating: 4.4,
+		isPublic: false,
 		categoryId: "cat-03",
 		ingredients: [
 			"Espinafre baby",
@@ -5920,6 +6180,7 @@ export const recipes = [
 		difficulty: "Médio",
 		time: "1h (+ tempo de dessalga)",
 		rating: 4.9,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"4 postas de bacalhau salgado",
@@ -5943,6 +6204,7 @@ export const recipes = [
 		difficulty: "Médio",
 		time: "1h 15 min",
 		rating: 4.8,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"200g de salmão fresco",
@@ -5966,6 +6228,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "25 min",
 		rating: 4.7,
+		isPublic: false,
 		categoryId: "cat-03",
 		ingredients: [
 			"Quinoa cozida",
@@ -5988,6 +6251,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "5 min",
 		rating: 4.6,
+		isPublic: false,
 		categoryId: "cat-07",
 		ingredients: [
 			"1 xícara de espinafre",
@@ -6009,6 +6273,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "40 min",
 		rating: 4.5,
+		isPublic: false,
 		categoryId: "cat-06",
 		ingredients: [
 			"12 cogumelos grandes",
@@ -6031,6 +6296,7 @@ export const recipes = [
 		difficulty: "Médio",
 		time: "3h",
 		rating: 4.8,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"Corned beef, repolho, batatas",
@@ -6052,6 +6318,7 @@ export const recipes = [
 		difficulty: "Médio",
 		time: "40 min (+ marinada)",
 		rating: 4.9,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"1 peça de fraldinha",
@@ -6074,6 +6341,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "20 min",
 		rating: 4.6,
+		isPublic: false,
 		categoryId: "cat-06",
 		ingredients: [
 			"Folhas de uva em conserva",
@@ -6096,6 +6364,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "25 min",
 		rating: 4.5,
+		isPublic: false,
 		categoryId: "cat-02",
 		ingredients: [
 			"1 xícara de ervilhas congeladas",
@@ -6118,6 +6387,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "2h",
 		rating: 4.8,
+		isPublic: false,
 		categoryId: "cat-02",
 		ingredients: [
 			"500g de carne para ensopado",
@@ -6139,6 +6409,7 @@ export const recipes = [
 		difficulty: "Médio",
 		time: "45 min",
 		rating: 4.7,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"2 peitos de frango",
@@ -6159,6 +6430,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "20 min",
 		rating: 4.8,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"4 filés de salmão",
@@ -6180,6 +6452,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "25 min",
 		rating: 4.6,
+		isPublic: false,
 		categoryId: "cat-01",
 		ingredients: [
 			"400g de massa cavatappi",
@@ -6202,6 +6475,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "20 min",
 		rating: 4.7,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"1kg de mexilhões",
@@ -6224,6 +6498,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "35 min",
 		rating: 4.6,
+		isPublic: false,
 		categoryId: "cat-02",
 		ingredients: [
 			"4 batatas",
@@ -6246,6 +6521,7 @@ export const recipes = [
 		difficulty: "Médio",
 		time: "40 min",
 		rating: 4.7,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"4 costeletas de porco grossas",
@@ -6267,6 +6543,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "50 min",
 		rating: 4.5,
+		isPublic: false,
 		categoryId: "cat-02",
 		ingredients: [
 			"Mix de legumes da estação (abobrinha, milho, vagem, tomate)",
@@ -6288,6 +6565,7 @@ export const recipes = [
 		difficulty: "Médio",
 		time: "45 min",
 		rating: 4.9,
+		isPublic: false,
 		categoryId: "cat-02",
 		ingredients: [
 			"Mix de frutos do mar (peixe, camarão, mexilhão, vôngole)",
@@ -6308,6 +6586,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "50 min",
 		rating: 4.8,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"3 pimentões",
@@ -6329,6 +6608,7 @@ export const recipes = [
 		difficulty: "Médio",
 		time: "1h",
 		rating: 5.0,
+		isPublic: false,
 		categoryId: "cat-02",
 		ingredients: [
 			"Carne de siri, camarão, vôngole, mexilhão, peixe branco",
@@ -6350,6 +6630,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "20 min",
 		rating: 4.5,
+		isPublic: false,
 		categoryId: "cat-05",
 		ingredients: [
 			"500g de vagem",
@@ -6372,6 +6653,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "50 min",
 		rating: 4.8,
+		isPublic: false,
 		categoryId: "cat-02",
 		ingredients: [
 			"1 xícara de lentilhas",
@@ -6394,6 +6676,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "1h",
 		rating: 4.7,
+		isPublic: false,
 		categoryId: "cat-02",
 		ingredients: [
 			"2 batatas-doces",
@@ -6416,6 +6699,7 @@ export const recipes = [
 		difficulty: "Médio",
 		time: "25 min",
 		rating: 4.8,
+		isPublic: false,
 		categoryId: "cat-02",
 		ingredients: [
 			"Abacate e pepino para a sopa",
@@ -6438,6 +6722,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "25 min",
 		rating: 4.7,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"1 bife de fraldinha",
@@ -6460,6 +6745,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "30 min",
 		rating: 4.6,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"Tofu firme",
@@ -6482,6 +6768,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "40 min",
 		rating: 4.5,
+		isPublic: false,
 		categoryId: "cat-03",
 		ingredients: [
 			"Lentilhas e grãos de centeio cozidos",
@@ -6503,6 +6790,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "35 min",
 		rating: 4.8,
+		isPublic: false,
 		categoryId: "cat-05",
 		ingredients: [
 			"2 batatas-doces",
@@ -6525,6 +6813,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "25 min",
 		rating: 4.7,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"4 costeletas de porco",
@@ -6547,6 +6836,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "30 min",
 		rating: 4.8,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"Frango desfiado com molho barbecue",
@@ -6568,6 +6858,7 @@ export const recipes = [
 		difficulty: "Médio",
 		time: "1h 30 min",
 		rating: 4.7,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"2 berinjelas",
@@ -6590,6 +6881,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "15 min",
 		rating: 4.6,
+		isPublic: false,
 		categoryId: "cat-05",
 		ingredients: [
 			"1 lata de feijão preto",
@@ -6612,6 +6904,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "10 min",
 		rating: 5.0,
+		isPublic: false,
 		categoryId: "cat-06",
 		ingredients: [
 			"2 abacates maduros",
@@ -6635,6 +6928,7 @@ export const recipes = [
 		difficulty: "Médio",
 		time: "45 min",
 		rating: 4.6,
+		isPublic: false,
 		categoryId: "cat-02",
 		ingredients: [
 			"Caldo de carne com especiarias (anis, canela, cravo)",
@@ -6658,6 +6952,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "50 min",
 		rating: 4.7,
+		isPublic: false,
 		categoryId: "cat-04",
 		ingredients: [
 			"Sobras de peru desfiado",
@@ -6680,6 +6975,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "15 min",
 		rating: 4.5,
+		isPublic: false,
 		categoryId: "cat-03",
 		ingredients: [
 			"Repolho roxo e verde",
@@ -6702,6 +6998,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "40 min",
 		rating: 4.6,
+		isPublic: false,
 		categoryId: "cat-02",
 		ingredients: [
 			"Feijão (preto ou vermelho)",
@@ -6724,6 +7021,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "50 min",
 		rating: 4.7,
+		isPublic: false,
 		categoryId: "cat-03",
 		ingredients: [
 			"1 xícara de arroz selvagem",
@@ -6746,6 +7044,7 @@ export const recipes = [
 		difficulty: "Fácil",
 		time: "1h 15 min",
 		rating: 4.8,
+		isPublic: false,
 		categoryId: "cat-02",
 		ingredients: [
 			"Feijão preto, vermelho e branco",
