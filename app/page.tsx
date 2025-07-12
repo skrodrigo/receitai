@@ -306,15 +306,17 @@ export default async function Page() {
 									</div>
 								</CardContent>
 								<CardFooter>
-									<Button
-										className={`w-full ${
-											plan.popular
-												? "bg-primary hover:bg-primary"
-												: "bg-primary hover:bg-primary"
-										}`}
-									>
-										🛒 Adquirir Agora
-									</Button>
+									<Link href="/dashboard/more-credits" className="w-full">
+										<Button
+											className={`w-full ${
+												plan.popular
+													? "bg-primary hover:bg-primary"
+													: "bg-primary hover:bg-primary"
+											}`}
+										>
+											🛒 Adquirir Agora
+										</Button>
+									</Link>
 								</CardFooter>
 							</Card>
 						))}
