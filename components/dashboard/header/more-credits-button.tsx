@@ -7,7 +7,7 @@ export default function MoreCreditsButton() {
 		<Button asChild>
 			<Link href="/dashboard/more-credits">
 				<ShoppingCart />
-				Comprar Créditos
+				Mais Créditos
 			</Link>
 		</Button>
 	);
