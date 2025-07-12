@@ -2,7 +2,7 @@ import { headers } from "next/headers";
 import RecipeList from "@/components/recipes/recipe-list";
 import BackButton from "@/components/ui/back-button";
 import { auth } from "@/lib/auth";
-import { GetFavoriteRecipes } from "@/server/recipe";
+import { GetFavoriteRecipes, getUnlockedRecipes } from "@/server/recipe";
 
 export default async function MyFavoritesPage() {
 	const session = await auth.api.getSession({
@@ -36,6 +36,10 @@ export default async function MyFavoritesPage() {
 
 	const favoriteRecipes = result.data;
 
+	// Fetch unlocked recipes for the current user so we can show the correct lock status
+	const { data: unlockedRecipes } = await getUnlockedRecipes();
+	const unlockedIds = new Set(unlockedRecipes?.map((r) => r.id));
+
 	return (
 		<div className="container mx-auto py-10">
 			<BackButton href="/dashboard" label="Voltar" />
@@ -43,7 +47,7 @@ export default async function MyFavoritesPage() {
 				Minhas Receitas Favoritas
 			</h1>
 			{favoriteRecipes.length > 0 ? (
-				<RecipeList recipes={favoriteRecipes} />
+				<RecipeList recipes={favoriteRecipes} unlockedRecipeIds={unlockedIds} />
 			) : (
 				<div className="flex flex-col items-center justify-center h-full text-center p-8 mt-8">
 					<h2 className="text-2xl font-bold mb-2">Nenhuma Receita Favorita</h2>
