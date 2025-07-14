@@ -20,7 +20,7 @@ export default function objectionsSection() {
 							"É muito caro."
 						</h4>
 						<p className="text-muted-foreground/70">
-							Com nossos planos, cada receita custa menos que um café. É um
+							Com nossos Pacotes, cada receita custa menos que um café. É um
 							investimento na sua saúde.
 						</p>
 					</div>

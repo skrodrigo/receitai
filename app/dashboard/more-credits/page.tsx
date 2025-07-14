@@ -55,7 +55,7 @@ export default function MoreCredits() {
 			<section className="py-16">
 				<div className="container mx-auto px-4">
 					<h3 className="text-3xl font-bold text-center text-primary mb-4">
-						💳 Planos de Créditos
+						💳 Pacotes de Créditos
 					</h3>
 					<p className="text-center text-primary mb-12 text-lg">
 						Escolha o plano ideal para suas aventuras culinárias

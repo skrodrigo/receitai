@@ -45,7 +45,7 @@ export default function UnlockButton({
 			{isPending ? (
 				<Loader2 className="mr-2 h-4 w-4 animate-spin" />
 			) : userCredits < 1 ? (
-				"Comprar mais créditos"
+				"Adquirir mais créditos"
 			) : (
 				`Desbloquear com 1 crédito (você tem ${userCredits})`
 			)}

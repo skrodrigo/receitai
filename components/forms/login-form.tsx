@@ -1,7 +1,6 @@
 "use client";
 
 import { zodResolver } from "@hookform/resolvers/zod";
-import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
@@ -24,7 +23,6 @@ import {
 	FormMessage,
 } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
-import { authClient } from "@/lib/auth-client";
 import { signIn } from "@/server/user";
 
 const formSchema = z.object({
@@ -60,12 +58,12 @@ export default function LoginForm() {
 		}
 	};
 
-	const signInWithGoogle = async () => {
-		await authClient.signIn.social({
-			provider: "google",
-			callbackURL: "/dashboard",
-		});
-	};
+	// const signInWithGoogle = async () => {
+	// 	await_signInWithGoogleIn.social({
+	// 		provider: "google",
+	// 		callbackURL: "/dashboard/more-credits",
+	// 	});
+	// };
 
 	const handleNextStep = async () => {
 		const isValid = await form.trigger("email");
@@ -76,7 +74,7 @@ export default function LoginForm() {
 
 	return (
 		<div className="min-h-screen flex items-center justify-center p-4">
-			<Card className="w-full max-w-md bg-white/90 backdrop-blur-sm">
+			<Card className="w-full min-w-[420px] bg-white/90 backdrop-blur-sm">
 				<CardHeader className="text-center">
 					<CardTitle className="text-2xl text-foreground">
 						Bem-vindo de volta! 👨‍🍳
@@ -165,7 +163,7 @@ export default function LoginForm() {
 							</div>
 						</form>
 					</Form>
-					{step === 1 && (
+					{/* {step === 1 && (
 						<>
 							<div className="relative my-4">
 								<div className="absolute inset-0 flex items-center">
@@ -192,7 +190,7 @@ export default function LoginForm() {
 								Entrar com Google
 							</Button>
 						</>
-					)}
+					)} */}
 					<div className="mt-4 text-center text-sm">
 						Não tem uma conta?{" "}
 						<Link href="/register" className="underline">
