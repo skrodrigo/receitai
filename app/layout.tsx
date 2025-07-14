@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Bricolage_Grotesque } from "next/font/google";
+import Image from "next/image";
 import Script from "next/script";
 import { ThemeProvider } from "next-themes";
+import BackRedirect from "@/components/BackRedirect";
 
 const _bricolageGrotesque = Bricolage_Grotesque({
 	variable: "--font-bricolage-grotesque",
@@ -47,14 +49,27 @@ export default function RootLayout({
 					`}
 				</Script>
 				<noscript>
-					<img
+					<Image
 						height="1"
+						alt=""
 						width="1"
 						style={{ display: "none" }}
 						src="https://www.facebook.com/tr?id=1879517062811289&ev=PageView&noscript=1"
 					/>
 				</noscript>
 				{/* End Meta Pixel Code */}
+
+				<Script
+					id="utmify-script"
+					strategy="afterInteractive"
+					src="https://cdn.utmify.com.br/scripts/utms/latest.js"
+					data-utmify-prevent-xcod-sck
+					data-utmify-prevent-subids
+					async
+					defer
+				/>
+
+				<BackRedirect />
 			</body>
 		</html>
 	);
