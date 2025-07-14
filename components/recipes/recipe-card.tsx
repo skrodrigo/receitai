@@ -67,7 +67,7 @@ export default function RecipeCard({
 			<CardFooter className="bottom-0">
 				<Button asChild className="w-full bg-primary hover:bg-primary">
 					<Link href={`/dashboard/recipes/${recipe.id}`}>
-						{isUnlocked ? "Ver Receita" : "🔓 Desbloquear Receita"}
+						{isUnlocked ? "Ver Receita" : "Desbloquear Receita"}
 					</Link>
 				</Button>
 			</CardFooter>

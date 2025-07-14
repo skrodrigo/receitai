@@ -78,13 +78,6 @@ export default function MoreCredits() {
 									</div>
 								)}
 								<CardHeader className="text-center pb-2">
-									<div className="text-4xl mb-2">
-										{plan.credits === 20
-											? "🥉"
-											: plan.credits === 50
-												? "🥈"
-												: "🥇"}
-									</div>
 									<CardTitle className="text-2xl text-primary">
 										{plan.credits} Créditos
 									</CardTitle>
@@ -123,7 +116,7 @@ export default function MoreCredits() {
 											className="w-full bg-primary hover:bg-primary"
 											type="submit"
 										>
-											Agora
+											Adquirir Pacote
 										</Button>
 									</form>
 								</CardFooter>

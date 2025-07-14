@@ -32,7 +32,7 @@ export default function Header() {
 					</Link>
 				</nav>
 				<Button asChild className="bg-primary hover:bg-primary">
-					<Link href="/login">Fazer Login</Link>
+					<Link href="/register">Cadastro</Link>
 				</Button>
 			</div>
 		</header>
