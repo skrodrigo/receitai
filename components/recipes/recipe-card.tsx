@@ -53,7 +53,7 @@ export default function RecipeCard({
 					</Badge>
 				</div>
 			</CardHeader>
-			<CardContent>
+			<CardContent className="flex-1">
 				<div className="relative">
 					<p
 						className={`text-primary ${
@@ -64,7 +64,7 @@ export default function RecipeCard({
 					</p>
 				</div>
 			</CardContent>
-			<CardFooter>
+			<CardFooter className="bottom-0">
 				<Button asChild className="w-full bg-primary hover:bg-primary">
 					<Link href={`/dashboard/recipes/${recipe.id}`}>
 						{isUnlocked ? "Ver Receita" : "🔓 Desbloquear Receita"}
