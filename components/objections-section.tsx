@@ -7,7 +7,7 @@ export default function objectionsSection() {
 				</h3>
 				<div className="space-y-6">
 					<div>
-						<h4 className="font-bold text-lg text-primary">
+						<h4 className="font-bold text-lg text-destructive">
 							"Não tenho tempo para cozinhar."
 						</h4>
 						<p className="text-muted-foreground/70">
@@ -16,14 +16,16 @@ export default function objectionsSection() {
 						</p>
 					</div>
 					<div>
-						<h4 className="font-bold text-lg text-primary">"É muito caro."</h4>
+						<h4 className="font-bold text-lg text-destructive">
+							"É muito caro."
+						</h4>
 						<p className="text-muted-foreground/70">
 							Com nossos planos, cada receita custa menos que um café. É um
 							investimento na sua saúde.
 						</p>
 					</div>
 					<div>
-						<h4 className="font-bold text-lg text-primary">
+						<h4 className="font-bold text-lg text-destructive">
 							"Não vou conseguir seguir as receitas."
 						</h4>
 						<p className="text-muted-foreground/70">

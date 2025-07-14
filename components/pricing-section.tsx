@@ -41,7 +41,7 @@ const pricingPlans: PricingPlan[] = [
 
 export default function PricingSection() {
 	return (
-		<div className="grid gap-6 md:grid-cols-3 max-w-4xl mx-auto py-16">
+		<div className="grid gap-12 md:grid-cols-3 max-w-4xl mx-auto py-16">
 			{pricingPlans.map((plan) => (
 				<Card
 					key={plan.price}
@@ -54,14 +54,11 @@ export default function PricingSection() {
 					{plan.popular && (
 						<div className="absolute -top-3 left-1/2 transform -translate-x-1/2">
 							<Badge className="bg-primary text-white px-4 py-1">
-								⭐⭐⭐⭐⭐ Mais Popular
+								⭐⭐⭐⭐⭐ Mais Escolhido
 							</Badge>
 						</div>
 					)}
 					<CardHeader className="text-center pb-2">
-						<div className="text-4xl mb-2">
-							{plan.credits === 40 ? "🥉" : plan.credits === 250 ? "🥇" : "🥈"}
-						</div>
 						<CardTitle className="text-2xl text-muted-foreground">
 							{plan.credits} Créditos
 						</CardTitle>

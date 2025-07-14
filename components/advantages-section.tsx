@@ -7,7 +7,7 @@ export default function AdvantagesSection() {
 				</h3>
 				<div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-center">
 					<div className="p-6">
-						<h4 className="font-bold text-lg text-primary mb-2">
+						<h4 className="font-bold text-lg text-destructive mb-2">
 							Economia de Tempo
 						</h4>
 						<p className="text-muted-foreground/70">
@@ -15,7 +15,7 @@ export default function AdvantagesSection() {
 						</p>
 					</div>
 					<div className="p-6">
-						<h4 className="font-bold text-lg text-primary mb-2">
+						<h4 className="font-bold text-lg text-destructive mb-2">
 							Receitas Aprovadas
 						</h4>
 						<p className="text-muted-foreground/70">
@@ -23,7 +23,7 @@ export default function AdvantagesSection() {
 						</p>
 					</div>
 					<div className="p-6">
-						<h4 className="font-bold text-lg text-primary mb-2">
+						<h4 className="font-bold text-lg text-destructive mb-2">
 							Vida Saudável
 						</h4>
 						<p className="text-muted-foreground/70">
@@ -31,7 +31,7 @@ export default function AdvantagesSection() {
 						</p>
 					</div>
 					<div className="p-6">
-						<h4 className="font-bold text-lg text-primary mb-2">
+						<h4 className="font-bold text-lg text-destructive mb-2">
 							Novos Sabores
 						</h4>
 						<p className="text-muted-foreground/70">

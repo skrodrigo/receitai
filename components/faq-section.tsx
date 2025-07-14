@@ -10,12 +10,12 @@ export default function FAQSection() {
 		<section id="faq" className="py-16">
 			<div className="container mx-auto px-4 max-w-3xl">
 				<h3 className="text-3xl font-bold text-center text-primary mb-12">
-					🤔 Perguntas Frequentes
+					Perguntas Frequentes
 				</h3>
 				<Accordion type="single" collapsible className="w-full">
 					<AccordionItem value="item-1">
 						<AccordionTrigger className="text-primary text-lg">
-							💰 Como funciona a compra de créditos?
+							Como funciona a compra de créditos?
 						</AccordionTrigger>
 						<AccordionContent className="text-muted-foreground/70">
 							Você adquire um pacote de créditos e pode usá-los para desbloquear
@@ -24,7 +24,7 @@ export default function FAQSection() {
 					</AccordionItem>
 					<AccordionItem value="item-2">
 						<AccordionTrigger className="text-primary text-lg">
-							🧑‍🍳 As receitas são para iniciantes?
+							As receitas são para iniciantes?
 						</AccordionTrigger>
 						<AccordionContent className="text-muted-foreground/70">
 							Sim! Temos receitas para todos os níveis, desde o cozinheiro de
@@ -33,7 +33,7 @@ export default function FAQSection() {
 					</AccordionItem>
 					<AccordionItem value="item-3">
 						<AccordionTrigger className="text-primary text-lg">
-							📱 Posso acessar em qualquer dispositivo?
+							Posso acessar em qualquer dispositivo?
 						</AccordionTrigger>
 						<AccordionContent className="text-muted-foreground/70">
 							Com certeza! O ReceitAI é totalmente responsivo e pode ser
